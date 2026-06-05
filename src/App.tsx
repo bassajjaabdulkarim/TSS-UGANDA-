@@ -11,7 +11,7 @@ import PromotionsSection from './components/PromotionsSection';
 import SuccessStories from './components/SuccessStories';
 import RegionalImpactHub from './components/RegionalImpactHub';
 import Footer from './components/Footer';
-import imageKey from './assets/images/";
+import imageKey from './assets/images/aquaculture_black_tarp_1780393207082";
 
 export default function App() {
   // Navigation active section tracker
