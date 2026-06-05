@@ -11,6 +11,7 @@ import PromotionsSection from './components/PromotionsSection';
 import SuccessStories from './components/SuccessStories';
 import RegionalImpactHub from './components/RegionalImpactHub';
 import Footer from './components/Footer';
+import imageKey from './assets/images/";
 
 export default function App() {
   // Navigation active section tracker
