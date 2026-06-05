@@ -225,6 +225,9 @@ Return ONLY the JSON. No markdown backticks or surrounding text.`;
 
 // Configure Vite middleware in development, and host static in prod
 const startApp = async () => {
+  // Serve the root-level assets directory statically under /assets
+  app.use('/assets', express.static(path.join(process.cwd(), 'assets')));
+
   if (process.env.NODE_ENV !== 'production') {
     const vite = await createViteServer({
       server: { middlewareMode: true },
