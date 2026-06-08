@@ -44,7 +44,7 @@ const HEAVY_DUTY_SHOWCASE: ShowcaseItem[] = [
     why: "Crucial highway safety shield that reflects light, making other drivers see your truck clearly from a distance, minimizing night-time collisions and maximizing vehicle security.",
     color: "Yellow",
     colorClass: "bg-yellow-400",
-    image: "/assets /images/yellow_tarp_truck_1780390607794.png",
+    image: "/assets/images/yellow_tarp_truck_1780390607794.png",
     features: [
       "Brass eyelets spaced every 30cm for extreme secure tie-down",
       "Special anti-fungal treatment stabilizes trailer mold growth",
