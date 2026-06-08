@@ -115,9 +115,9 @@ export default function SuccessStories() {
   };
 
   const getStoryImageFallback = (key: 'coffee' | 'factory' | 'truck') => {
-    if (key === 'truck') return "/assets/images/yellow_tarp_truck_1780390607794.png";
-    if (key === 'coffee') return "/assets/images/orange_tarp_coffee_1780390624788.png";
-    return "/assets/images/tarpaulin_customization_hub_1780388737537.png";
+    if (key === 'truck') return "/images/yellow_tarp_truck_1780390607794.png";
+    if (key === 'coffee') return "/images/orange_tarp_coffee_1780390624788.png";
+    return "/images/tarpaulin_customization_hub_1780388737537.png";
   };
 
   return (
