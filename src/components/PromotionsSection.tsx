@@ -138,7 +138,7 @@ export default function PromotionsSection() {
               <div className="w-full h-64 flex items-center justify-center p-3 rounded-2xl bg-white/5 border border-white/5 backdrop-blur-sm shadow-inner mb-6 overflow-hidden relative">
                 <div className="absolute inset-0 bg-gradient-to-t from-blue-950/80 to-transparent z-10 pointer-events-none" />
                 <img 
-                  src="/assets/images/tass_dispatch_mascot_1780564254694.png" 
+                  src="/images/tass_dispatch_mascot_1780564254694.png" 
                   alt="Tass - TSS Uganda Mascot" 
                   className="w-full h-full object-contain filter drop-shadow-[0_10px_15px_rgba(0,0,0,0.5)] transition-transform duration-500 group-hover:scale-105"
                   referrerPolicy="no-referrer"
