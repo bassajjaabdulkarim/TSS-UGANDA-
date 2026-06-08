@@ -70,7 +70,7 @@ export default function Header({ onNavigate, activeSection }: HeaderProps) {
           >
             <div className="relative w-11 h-11 bg-white rounded-lg group-hover:bg-slate-50 transition-colors shadow-lg border border-slate-200 overflow-hidden flex items-center justify-center p-1">
               <img 
-                src="/assets/images/tss_official_hq_logo_1780562057363.png" 
+                public="/images/tss_official_hq_logo_1780562057363.png" 
                 alt="TSS Uganda Logo" 
                 className="w-10 h-10 object-contain transition-transform group-hover:scale-105 animate-fade-in"
                 referrerPolicy="no-referrer"
