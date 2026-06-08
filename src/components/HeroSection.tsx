@@ -13,7 +13,7 @@ interface HeroSectionProps {
 
 const HERO_IMAGES = [
   {
-    public: "/images/orange_tarp_coffee_1780390624788.png",
+    src: "/images/orange_tarp_coffee_1780390624788.png",
     tag: "COFFEE QUALITY & POST-HARVEST EXCELLENCE",
     title: "Empowering Uganda's Farmers, Securing Global Premium Exports",
     subtitle: "Durable tarpaulins designed to eliminate soil contamination, speed up sun drying of Arabica and Robusta, and double standard farmgate incomes.",
@@ -23,7 +23,7 @@ const HERO_IMAGES = [
     actionTarget: "promotions"
   },
   {
-    public: "/images/yellow_tarp_truck_1780390607794.png",
+    src: "/images/yellow_tarp_truck_1780390607794.png",
     tag: "HEAVY INDUSTRIAL & LOGISTICS SUPPLY CHAIN SECURITY",
     title: "Rugged Weather Armor for East Africa's Core Transit Corridors",
     subtitle: "High-GSM tear-proof covers engineered for long-haul carrier trucks operating across East Africa, protecting vital goods from harsh equatorial sun and heavy tropical monsoons.",
@@ -33,7 +33,7 @@ const HERO_IMAGES = [
     actionTarget: "catalog"
   },
   {
-    public: "/images/tarpaulin_customization_hub_1780388737537.png",
+    src: "/images/tarpaulin_customization_hub_1780388737537.png",
     tag: "KAMPALA FABRICATION & CUSTOMIZATION HUB",
     title: "Precision Tooling, Heat-Sealing & Heavy-Duty Eyeleting",
     subtitle: "Based in Kampala, we custom-tailor tarpaulins to any length, reinforcing with brass eyelets and robust heat welded hems.",
@@ -64,7 +64,7 @@ export default function HeroSection({ onNavigate }: HeroSectionProps) {
             className="absolute inset-0 w-full h-full"
           >
             <img
-              public={currentSlide.public}
+              src={currentSlide.src}
               alt={currentSlide.title}
               className="w-full h-full object-cover object-center"
               referrerPolicy="no-referrer"
