@@ -23,7 +23,7 @@ export default function Footer({ onNavigate }: FooterProps) {
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 bg-white rounded overflow-hidden flex items-center justify-center border border-slate-800 p-0.5 animate-fade-in">
                 <img 
-                  public="/images/tss_official_hq_logo_1780562057363.png" 
+                  src="/images/tss_official_hq_logo_1780562057363.png" 
                   alt="TSS Uganda Logo" 
                   className="w-full h-full object-contain"
                   referrerPolicy="no-referrer"
