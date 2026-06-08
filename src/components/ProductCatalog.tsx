@@ -44,7 +44,7 @@ const HEAVY_DUTY_SHOWCASE: ShowcaseItem[] = [
     why: "Crucial highway safety shield that reflects light, making other drivers see your truck clearly from a distance, minimizing night-time collisions and maximizing vehicle security.",
     color: "Yellow",
     colorClass: "bg-yellow-400",
-    image: "/assets/images/yellow_tarp_truck_1780390607794.png",
+    image: "/images/yellow_tarp_truck_1780390607794.png",
     features: [
       "Brass eyelets spaced every 30cm for extreme secure tie-down",
       "Special anti-fungal treatment stabilizes trailer mold growth",
@@ -65,7 +65,7 @@ const HEAVY_DUTY_SHOWCASE: ShowcaseItem[] = [
     why: "High-efficiency orange heat absorption speeds up coffee and grain drying without scorching them, preserving volatile bean oils and coffee cherry flesh from scorching heat.",
     color: "Orange",
     colorClass: "bg-orange-500",
-    image: "/assets /images/orange_tarp_coffee_1780390624788.png",
+    image: "/images/orange_tarp_coffee_1780390624788.png",
     features: [
       "100% food-grade material - preserves delicate natural coffee aromas",
       "Hydrophobic rain-shedding surface resists unpredictable tropical cloudbursts",
@@ -86,7 +86,7 @@ const HEAVY_DUTY_SHOWCASE: ShowcaseItem[] = [
     why: "Maintains cooler under-canopy temperatures and allows enough solar light transmission for photosynthesis while protecting youth seedlings from scorching sun rays.",
     color: "Green",
     colorClass: "bg-emerald-600",
-    image: "/assets /images/green_tarp_use_1780393451681.png",
+    image: "/images/green_tarp_use_1780393451681.png",
     features: [
       "Balances solar exposure - perfect for tender crop nursery beds",
       "Tear-proof edges with aluminum secure grommets every 50cm",
@@ -107,7 +107,7 @@ const HEAVY_DUTY_SHOWCASE: ShowcaseItem[] = [
     why: "Suppresses light penetration to inhibit green algae blooms while maintaining warm water temperatures to support tilapia & catfish metabolism.",
     color: "Black",
     colorClass: "bg-slate-900",
-    image: "/assets /images/aquaculture_black_tarp_1780393207082.png",
+    image: "/images/aquaculture_black_tarp_1780393207082.png",
     features: [
       "Ensures water containment stability - non-toxic to aquatic stock",
       "Highly puncture-resistant against roots, gravel, and frame edges",
@@ -128,7 +128,7 @@ const HEAVY_DUTY_SHOWCASE: ShowcaseItem[] = [
     why: "Highly attractive visual layout, extremely affordable, and light to carry - the perfect fabric choice for cooperative markets and temporary trading yards.",
     color: "Stripes",
     colorClass: "bg-slate-300 bg-gradient-to-r from-blue-400 via-indigo-200 to-amber-200",
-    image: "/assets /images/striped_tarp_use_1780393572426.png",
+    image: "/images/striped_tarp_use_1780393572426.png",
     features: [
       "Incredibly lightweight to fold and transport to daily cooperative yards",
       "Vibrant high-contrast design attracts regional customers to your stall",
@@ -152,7 +152,7 @@ const ECONOMY_SHOWCASE: ShowcaseItem[] = [
     why: "Perfect cost-effective shelter option tailored for livestock housing roof shelter and temporary smallholder market stalls. Extremely light to transport, mount, and clean.",
     color: "Blue",
     colorClass: "bg-blue-600",
-    image: "/assets /images/blue_tarp_livestock_1780391886537.png",
+    image: "/images/blue_tarp_livestock_1780391886537.png",
     features: [
       "Unmatched price point - optimized for low-capital farming households",
       "Easily mounted onto timber framing structures for cattle & chicken bomas",
@@ -173,7 +173,7 @@ const ECONOMY_SHOWCASE: ShowcaseItem[] = [
     why: "Excellent protective weather barrier optimized for outdoor storage, protecting crop yields, construction items, and open-air goods. Blends perfectly with outdoor agricultural environments.",
     color: "Army Green",
     colorClass: "bg-emerald-800",
-    image: "/assets /images/army_green_use_1780393793155.png",
+    image: "/images/army_green_use_1780393793155.png",
     features: [
       "Protects standing harvest stacks and sacks from rainfall and ground moisture",
       "Low-visibility army green tone blends with farm gardens, deterring theft",
@@ -194,7 +194,7 @@ const ECONOMY_SHOWCASE: ShowcaseItem[] = [
     why: "Easily reflected and identified at any time of the day or night. Outstanding thermal and light reflection, allowing ease of visual security monitoring day and night to protect assets.",
     color: "Grey",
     colorClass: "bg-slate-500",
-    image: "/assets /images/grey_tarp_use_1780393676967.png",
+    image: "/images/grey_tarp_use_1780393676967.png",
     features: [
       "Easily recognized under security torches or vehicle headlights",
       "Outstanding heat-deflection traits - keeps underlying engines cooler",
