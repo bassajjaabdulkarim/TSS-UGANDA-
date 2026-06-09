@@ -71,10 +71,10 @@ export default function PromotionsSection() {
             <span>Active Live Events & Campaigns</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-blue-950 font-display uppercase tracking-tight">
-            TSS UG Live Events & Promos
+            TSS UG MASANYU BUY & WIN PROMOTION
           </h2>
           <p className="mt-4 text-slate-600 text-xs sm:text-sm font-medium leading-relaxed">
-            Stay updated with active seasonal discounts, open-air specialized workshops, and exciting lucky draws orchestrated straight from our main dispatch warehouse in Kampala.
+            TO PARTICIPATE ,BUY A TARPAULIN PIECE FROM ANY OF OUR AGENTS NEAR YOU , A LUCKY COUPON WILL BE PROVIDED TO YOU ,FILL IT IN WITH YOUR CONTACT & NAME .LEAVE A COPY WITH OUR AGENTS & KEEP ONE . ALL WINNERS WILL BE ANNOUNCED ON RADIO EVERY THURSDAY AND FRIDAY .
           </p>
 
           {/* Filtering Tabs */}
