@@ -42,7 +42,7 @@ const HEAVY_DUTY_SHOWCASE: ShowcaseItem[] = [
     tearStrength: "Cross-woven High-Tensile 1300D Thread Matrix",
     use: "Safeguards long-haul cargo trailers (Kampala-Mombasa corridor) and large truck loads outdoor.",
     why: "Crucial highway safety shield that reflects light, making other drivers see your truck clearly from a distance, minimizing night-time collisions and maximizing vehicle security.",
-    color: "Yellow",
+    color: "",
     colorClass: "bg-yellow-400",
     image: "/images/yellow_tarp_truck_1780390607794.png",
     features: [
@@ -326,7 +326,7 @@ export default function ProductCatalog({ onNavigate }: ProductCatalogProps) {
             Uganda-Optimized Tarpaulin Material Catalog
           </h2>
           <p className="mt-4 text-base sm:text-lg text-slate-600 font-light max-w-2xl mx-auto">
-            TSS Uganda structures tarpaulins with dense high-grade weave matrices, dual lamination, and extreme equatorial UV defense. Find each class, color option, and its verified active duty usage in-field.
+            BUY TSS Uganda  tarpaulins from a TSS Authorized Dealer near you at the lowest prices .
           </p>
         </div>
 
@@ -334,7 +334,7 @@ export default function ProductCatalog({ onNavigate }: ProductCatalogProps) {
         <div className="mb-20">
           <div className="border-b border-slate-200 pb-4 mb-8 flex flex-col md:flex-row justify-between items-start md:items-end gap-3">
             <div>
-              <span className="text-xs font-mono font-bold tracking-[0.2em] text-blue-900 uppercase block mb-1">CATEGORY 01 (PREMIUM)</span>
+              <span className="text-xs font-mono font-bold tracking-[0.2em] text-blue-900 uppercase block mb-1">The True Face Of Durability </span>
               <h3 className="text-2xl sm:text-3xl font-extrabold font-display text-slate-950 tracking-tight flex items-center gap-2">
                 Heavy-Duty Tarpaulins <span className="text-xs font-bold font-mono tracking-widest text-[#d97706] bg-amber-50 border border-amber-200 px-2 py-0.5 rounded uppercase font-semibold">400 - 800 GSM</span>
               </h3>
@@ -353,7 +353,7 @@ export default function ProductCatalog({ onNavigate }: ProductCatalogProps) {
         <div className="mb-16">
           <div className="border-b border-slate-200 pb-4 mb-8 flex flex-col md:flex-row justify-between items-start md:items-end gap-3">
             <div>
-              <span className="text-xs font-mono font-bold tracking-[0.2em] text-blue-900 uppercase block mb-1">CATEGORY 02 (AFFORDABLE)</span>
+              <span className="text-xs font-mono font-bold tracking-[0.2em] text-blue-900 uppercase block mb-1">FOR THE LOWEST BUDGET</span>
               <h3 className="text-2xl sm:text-3xl font-extrabold font-display text-slate-950 tracking-tight flex items-center gap-2">
                 Economy Tarpaulins <span className="text-xs font-bold font-mono tracking-widest text-blue-900 bg-blue-50 border border-blue-105 px-2 py-0.5 rounded uppercase font-semibold">250 GSM</span>
               </h3>
