@@ -81,7 +81,7 @@ export default function Header({ onNavigate, activeSection }: HeaderProps) {
                 <span className="font-extrabold text-2xl tracking-tighter text-blue-950 font-display">TSS UGANDA</span>
                 <span className="bg-yellow-100 text-yellow-800 border border-yellow-200 px-2 py-0.5 rounded text-[9px] font-bold tracking-widest uppercase font-mono animate-pulse">Est. Kampala</span>
               </div>
-              <p className="text-[10px] text-sky-500 font-extrabold mt-0.5 tracking-widest uppercase font-mono">Heavy Duty Protective Solutions</p>
+              <p className="text-[10px] text-sky-500 font-extrabold mt-0.5 tracking-widest uppercase font-mono">THE NO.1 CHOICE EVERYWHERE</p>
             </div>
           </div>
 
