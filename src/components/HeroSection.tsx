@@ -16,7 +16,7 @@ const HERO_IMAGES = [
     src: "/images/orange_tarp_coffee_1780390624788.png",
     tag: "COFFEE QUALITY & POST-HARVEST EXCELLENCE",
     title: "Empowering Uganda's Farmers, Securing Global Premium Exports",
-    subtitle: "Durable tarpaulins designed to eliminate soil contamination, speed up sun drying of Arabica and Robusta, and double standard farmgate incomes.",
+    subtitle: "TSS UGANDA'S Orange Heavy Duty tarpaulins are designed to eliminate soil contamination, speed up sun drying of Arabica and Robusta, and double standard farmgate incomes.",
     icon: Sprout,
     gradient: "from-blue-950/95 via-slate-950/85 to-transparent",
     actionText: "View Live Events & Promos",
