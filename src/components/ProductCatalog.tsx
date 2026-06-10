@@ -326,7 +326,7 @@ export default function ProductCatalog({ onNavigate }: ProductCatalogProps) {
             TSS UG-Optimized Tarpaulin Catalog
           </h2>
           <p className="mt-4 text-base sm:text-lg text-slate-600 font-light max-w-2xl mx-auto">
-            Buy TSS Uganda  tarpaulins from a TSS Authorized Dealer near you at the Lowest Prices OR Order on teaxy.store .
+            For All Farmers In Uganda,Get Real Value from your Harvests This Season by using Clean & Guaranteed Tarpaulin. Buy TSS Uganda  tarpaulins from a TSS Authorized Dealer near you at the Lowest Prices OR Order on teaxy.store .
           </p>
         </div>
 
