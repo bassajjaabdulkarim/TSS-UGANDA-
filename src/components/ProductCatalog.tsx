@@ -46,16 +46,15 @@ const HEAVY_DUTY_SHOWCASE: ShowcaseItem[] = [
     colorClass: "bg-yellow-400",
     image: "/images/yellow_tarp_truck_1780390607794.png",
     features: [
-      "Resistant to high friction",
-      "continuous sun baking",
-      "& heavy rainfall"
+      "High friction",
+      "Continuous sun baking",
+      "Heavy rainfall"
     ],
     linkToProductId: "p1"
   },
   {
     id: "hd-orange",
     name: "ORANGE HEAVY DUTY TARPAULINS",
-    gsm: 400,
     material: "Reinforced High-Density Polyethylene with Dual LDPE Sheaths",
     thickness: "0.38 mm",
     uvProtection: "Volcanic African Sun Stabilized (Max UV Barrier)",
@@ -67,16 +66,16 @@ const HEAVY_DUTY_SHOWCASE: ShowcaseItem[] = [
     colorClass: "bg-orange-500",
     image: "/images/orange_tarp_coffee_1780390624788.png",
     features: [
-      "100% food-grade material - preserves delicate natural coffee aromas",
-      "Hydrophobic rain-shedding surface resists unpredictable tropical cloudbursts",
-      "Flexible, lightweight design folds in seconds to shield against surprise rain"
+      "Extreme thermal degradation,which prevents the plastic from becoming brittle ,cracking,or flaking into the crop ",
+      "Moisture retention on the surface preventing fungal & mold growth",
+      "Tearing when rakes , or heavy boots move on them"
     ],
-    linkToProductId: "p2"
+    linkToProductId: "p2",
+    gsm: 0
   },
   {
     id: "hd-green",
     name: "GREEN HEAVY DUTY TARPAULINS",
-    gsm: 400,
     material: "Reinforced High-Density Polyethylene Core with Dual LDPE Sheaths",
     thickness: "0.38 mm",
     uvProtection: "Equatorial UV-A/B Solar Defense Layer",
@@ -88,16 +87,16 @@ const HEAVY_DUTY_SHOWCASE: ShowcaseItem[] = [
     colorClass: "bg-emerald-600",
     image: "/images/green_tarp_use_1780393451681.png",
     features: [
-      "Balances solar exposure - perfect for tender crop nursery beds",
-      "Tear-proof edges with aluminum secure grommets every 50cm",
-      "Highly resilient against equatorial storms and wind gusts"
+      "UV radiation penetration, filtering out destructive ultra violet rays that can scotch delicate seedlings",
+      "mildew & chemical rot caused by expousre to fertilizers & pesticides",
+      "wind tear when erected as over shades /micro tunnels"
     ],
-    linkToProductId: "p2"
+    linkToProductId: "p2",
+    gsm: 0
   },
   {
     id: "hd-black",
     name: "BLACK HEAVY DUTY TARPAULINS",
-    gsm: 650,
     material: "Multi-layered High-Density Polyester PVC Core",
     thickness: "0.55 mm",
     uvProtection: "Double UV Stabilized Black Armor",
@@ -109,16 +108,16 @@ const HEAVY_DUTY_SHOWCASE: ShowcaseItem[] = [
     colorClass: "bg-slate-900",
     image: "/images/aquaculture_black_tarp_1780393207082.png",
     features: [
-      "Ensures water containment stability - non-toxic to aquatic stock",
-      "Highly puncture-resistant against roots, gravel, and frame edges",
-      "Locks heat water temperature to optimize fish feeding levels"
+      "hydrostatic pressure & puncture that could result from heavy water & puncturing form sharp roots or debris hidden beneath the soil bed",
+      "photosynthesis algae growth by completely blocking out sunlight",
+      "Soil chemical corrosion because it is chemically innet , resisting corrosion from both the earth beneath & aquaculture waste above"
     ],
-    linkToProductId: "p1"
+    linkToProductId: "p1",
+    gsm: 0
   },
   {
     id: "hd-stripes",
     name: "STRIPES HEAVY DUTY TARPAULINS",
-    gsm: 400,
     material: "Reinforced HDPE Crop Guard Weaving Format",
     thickness: "0.38 mm",
     uvProtection: "Standard Solar UV Protection Barrier",
@@ -130,11 +129,12 @@ const HEAVY_DUTY_SHOWCASE: ShowcaseItem[] = [
     colorClass: "bg-slate-300 bg-gradient-to-r from-blue-400 via-indigo-200 to-amber-200",
     image: "/images/striped_tarp_use_1780393572426.png",
     features: [
-      "Incredibly lightweight to fold and transport to daily cooperative yards",
-      "Vibrant high-contrast design attracts regional customers to your stall",
-      "Affordable retail yard covering with durable corner reinforcement"
+      "Repeated flexing & creasing , they resist flex cracking meaning the laminated layers won't delaminate /crack along fold lines",
+      "Mild shock loads , withstand sudden tags from wind guts , tight rope tying & the weight of pulling water",
+      "Heat Absorption , reflect alternating white stripes reflect a significant portion of solar radiation"
     ],
-    linkToProductId: "p2"
+    linkToProductId: "p2",
+    gsm: 0
   }
 ];
 
@@ -142,7 +142,6 @@ const ECONOMY_SHOWCASE: ShowcaseItem[] = [
   {
     id: "eco-blue",
     name: "BLUE ECONOMY TARPAULINS",
-    gsm: 250,
     material: "Medium-Density Laminated Polyethylene Matrix",
     thickness: "0.24 mm",
     uvProtection: "Standard Solar UV-A/B Equatorial Coating",
@@ -154,16 +153,16 @@ const ECONOMY_SHOWCASE: ShowcaseItem[] = [
     colorClass: "bg-blue-600",
     image: "/images/blue_tarp_livestock_1780391886537.png",
     features: [
-      "Unmatched price point - optimized for low-capital farming households",
-      "Easily mounted onto timber framing structures for cattle & chicken bomas",
-      "Specially designed lightweight build - easy for a single farmer to carry"
+      "Ammonia & uric acid corrosion ,chemically treated to resist corrosive atmosphere",
+      "Pecking ,biting & scratching ",
+      "Bacterial & fungal accumulation "
     ],
-    linkToProductId: "p3"
+    linkToProductId: "p3",
+    gsm: 0
   },
   {
     id: "eco-green",
     name: "ARMY GREEN ECONOMY TARPAULINS",
-    gsm: 250,
     material: "Medium-Density Laminated Polyethylene Matrix",
     thickness: "0.24 mm",
     uvProtection: "Standard Solar UV-A/B Equatorial Coating",
@@ -175,16 +174,16 @@ const ECONOMY_SHOWCASE: ShowcaseItem[] = [
     colorClass: "bg-emerald-800",
     image: "/images/army_green_use_1780393793155.png",
     features: [
-      "Protects standing harvest stacks and sacks from rainfall and ground moisture",
-      "Low-visibility army green tone blends with farm gardens, deterring theft",
-      "Aluminum eyelets located every 100cm for simple rope securement"
+      "Static water pooling & heavy hydro static pressure",
+      "Extreme uv degradation & sub surface heat build up",
+      "Industrial pollutants & Acid rains"
     ],
-    linkToProductId: "p3"
+    linkToProductId: "p3",
+    gsm: 0
   },
   {
     id: "eco-grey",
     name: "GREY ECONOMY TARPAULINS",
-    gsm: 250,
     material: "Medium-Density Laminated Polyethylene Matrix",
     thickness: "0.24 mm",
     uvProtection: "Reflective Light-Shield & Solar UV Defense",
@@ -196,11 +195,12 @@ const ECONOMY_SHOWCASE: ShowcaseItem[] = [
     colorClass: "bg-slate-500",
     image: "/images/grey_tarp_use_1780393676967.png",
     features: [
-      "Easily recognized under security torches or vehicle headlights",
-      "Outstanding heat-deflection traits - keeps underlying engines cooler",
-      "Dual-coated rot-proof layer avoids degradation in damp outdoor yards"
+      "Oil , grease & fuel spills",
+      "Sharp edge puncture & tearing",
+      "Condesation & moisture trapping"
     ],
-    linkToProductId: "p3"
+    linkToProductId: "p3",
+    gsm: 0
   }
 ];
 
@@ -241,7 +241,7 @@ export default function ProductCatalog({ onNavigate }: ProductCatalogProps) {
               rel="noopener noreferrer" 
               className="bg-amber-500 hover:bg-amber-600 text-slate-950 px-3 py-1.5 rounded-lg font-black text-[11px] font-mono tracking-wide uppercase transition-all shadow hover:scale-105 flex items-center gap-1"
             >
-              <span>shop here</span>
+              <span>ORDER NOW</span>
               <span className="underline">teaxy.store</span>
             </a>
           </div>
@@ -305,7 +305,7 @@ export default function ProductCatalog({ onNavigate }: ProductCatalogProps) {
             <span>Call to Order: +256 761414008</span>
           </a>
           <div className="text-center text-[10px] text-slate-500 font-medium font-mono uppercase mt-1">
-            Kampala Central Warehouse Dispatch
+            AVAILABLE NOW 
           </div>
         </div>
       </div>
@@ -326,7 +326,7 @@ export default function ProductCatalog({ onNavigate }: ProductCatalogProps) {
             TSS UG-Optimized Tarpaulin Catalog
           </h2>
           <p className="mt-4 text-base sm:text-lg text-slate-600 font-light max-w-2xl mx-auto">
-            Buy TSS Uganda  tarpaulins from a TSS Authorized Dealer near you at the lowest prices .
+            Buy TSS Uganda  tarpaulins from a TSS Authorized Dealer near you at the Lowest Prices OR Order on teaxy.store .
           </p>
         </div>
 
@@ -340,7 +340,7 @@ export default function ProductCatalog({ onNavigate }: ProductCatalogProps) {
               </h3>
             </div>
             <p className="text-xs text-slate-500 max-w-md font-light leading-relaxed">
-                Suitable for Heavy Duty and Industrial activities .
+                Suitable for Heavy Duty and Industrial activities.
             </p>
           </div>
 
@@ -359,7 +359,7 @@ export default function ProductCatalog({ onNavigate }: ProductCatalogProps) {
               </h3>
             </div>
             <p className="text-xs text-slate-500 max-w-md font-light leading-relaxed">
-              Highly affordable, exceptionally light to carry, simple to wash down, and quickly configured with ropes & timber layouts on the go.
+              Suitable For Light Weight Activities.
             </p>
           </div>
 
