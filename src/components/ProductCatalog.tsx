@@ -374,7 +374,7 @@ export default function ProductCatalog({ onNavigate }: ProductCatalogProps) {
           <div className="md:max-w-xl relative z-10">
             <h4 className="text-xl font-bold font-display text-white mb-2 uppercase tracking-wide">Be Xtra Ordinary Enjoy</h4>
             <p className="text-xs text-slate-300 font-light leading-relaxed">
-              Convenient 24/7 ,Affordable Unbeatable Prices ,Secure cashless transactions , Reliable fast delivery & Accesible website Anytime Anywhere.
+              Shop Conveniently 24/7 at Affordable Unbeatable Prices ,Secure cashless transactions , Reliable fast delivery & Accesible website Anytime Anywhere.
             </p>
           </div>
           <div className="flex flex-col sm:flex-row items-center gap-3 shrink-0 w-full md:w-auto z-10">
