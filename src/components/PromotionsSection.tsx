@@ -28,11 +28,11 @@ export default function PromotionsSection() {
       type: 'events',
       badge: 'LIVE WORKSHOP',
       badgeColor: 'bg-blue-600 text-white border-blue-500 border-blue-400',
-      title: 'Nakawa Open-Air Fabric Sensitization Seminar',
-      description: 'Join the TSS team live at our central Nakawa warehouse yard. Get a practical hand-on introduction on how to construct rain-sliding A-line tents, handle nocturnal dew condensation, and optimal eyelet placement under mountain winds.',
+      title: 'Social media Open-Air Fabric Sensitization Seminars',
+      description: 'Join the TSS team live on social media on facebook , tiktok ,instagram & x(FORMERLY TWITTER) Spaces. Get Knowledge on how  to handle & maintain all tarpaulin material',
       offerValue: 'FREE ADMISSION',
       validUntil: 'Event Date: June 15, 2026 • 10:00 AM',
-      cta: 'Register Attendance Direct',
+      cta: 'Follow us on social media to stay updated',
       icon: Calendar,
       bgColor: 'border-l-4 border-l-blue-600 bg-blue-50/10 border-slate-200'
     },
@@ -123,15 +123,15 @@ export default function PromotionsSection() {
               <div className="flex items-center gap-3 mb-6">
                 <span className="bg-yellow-400 text-slate-950 border border-yellow-350 px-2.5 py-1 rounded-full text-[9px] font-black font-mono uppercase tracking-widest flex items-center gap-1 animate-pulse">
                   <Sparkles className="w-3 h-3 text-slate-950 animate-spin" />
-                  <span>Meet Tass!</span>
+                  <span>Meet Mr Teaxy!</span>
                 </span>
-                <span className="text-xs text-sky-300 font-mono font-bold uppercase tracking-wider">TSS Brand Champion</span>
+                <span className="text-xs text-sky-300 font-mono font-bold uppercase tracking-wider">TSS Brand Assistant</span>
               </div>
 
               {/* Speech bubble design */}
               <div className="bg-slate-900 border border-blue-800/45 p-4 rounded-2xl text-xs text-slate-200 leading-relaxed mb-6 font-medium relative italic">
                 <span className="absolute -bottom-2.5 left-8 w-4 h-4 bg-slate-900 border-r border-b border-blue-800/40 rotate-45" />
-                "Call our central Kampala dispatch hotline at <strong className="text-yellow-400 not-italic hover:underline font-mono text-[13px]">+256 761414008</strong> and state your dimensions. We'll instantly apply active promotions to your order!"
+                "Call our  hotline at <strong className="text-yellow-400 not-italic hover:underline font-mono text-[13px]">+256 761414008</strong> and state your dimensions. We'll instantly apply active promotions to your order!"
               </div>
 
               {/* Mascot Asset Image Rendering */}
