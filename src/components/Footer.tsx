@@ -32,7 +32,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               <span className="font-extrabold text-xl tracking-tight text-white font-display">TSS UGANDA</span>
             </div>
             <p className="text-slate-400 font-light leading-relaxed max-w-sm">
-              An established commercial enterprise based in Kampala, Uganda, specialized in custom heavy-duty and economy tarpaulins. Driving East Africa's agricultural value chain competitiveness, reducing post-harvest coffee losses, and empowering local youth livelihoods.
+              A Registered & Leading  Distributing established commercial enterprise based in Kampala, Uganda, specializing in heavy-duty and economy tarpaulins. Driving East Africa's agricultural value chain competitiveness, reducing post-harvest coffee losses, and empowering local youth livelihoods.
             </p>
             
             {/* Social Media handles */}
@@ -110,7 +110,7 @@ export default function Footer({ onNavigate }: FooterProps) {
         <div className="pt-8 flex flex-col sm:flex-row justify-between items-center text-[10px] text-slate-500 gap-4">
           <div className="space-y-1 text-center sm:text-left">
             <p>© 2026 TSS Uganda (Tarpaulin Stores & Supplies). All rights secured.</p>
-            <p className="font-mono text-[9px] uppercase tracking-wider text-slate-600">Enterprise deployment registration ID: 7de1fc05-9929-4d73 • Kampala, Uganda</p>
+            <p className="font-mono text-[9px] uppercase tracking-wider text-slate-600">Enterprise Registration ID: 80030827317433 • Kampala, Uganda</p>
           </div>
 
           <div className="flex items-center gap-2.5 bg-slate-900/60 p-2 border border-slate-900 rounded font-mono uppercase text-[9px] text-sky-400">
