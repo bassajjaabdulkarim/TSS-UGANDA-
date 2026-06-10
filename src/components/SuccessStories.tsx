@@ -18,10 +18,11 @@ import {
   CheckCircle,
   Clock
 } from 'lucide-react';
+import { SUCCESS_STORIES } from './SUCCESS_STORIES';
 
-interface SuccessStory {
+export interface SuccessStory {
   id: string;
-  category: 'drying' | 'storage' | 'transit';
+  category: 'PROMOTONAL' | 'storage' | 'transit';
   categoryLabel: string;
   title: string;
   farmerName: string;
@@ -34,78 +35,21 @@ interface SuccessStory {
     detail: string;
   }[];
   testimonial: string;
-  imageKey: 'coffee' | 'factory' | 'truck';
+  imageKey: 'PROMOTIONAL' | 'factory' | 'truck';
   materialUsed: string;
 }
 
-const SUCCESS_STORIES: SuccessStory[] = [
-  {
-    id: "story-1",
-    category: "drying",
-    categoryLabel: "Post-Harvest Drying",
-    title: "Overcoming Ochratoxin: Bugisu Arabica Premium Grade Victory",
-    farmerName: "Beatrice Chebet",
-    location: "Kapchorwa District, Mount Elgon Region",
-    challenge: "Drying coffee cherries directly on bare soil introduced destructive moisture, dust, and Aspergillus mold spores (the cause of Ochratoxin A). This heavily degraded our crop's quality. Upcountry bulk buyers either rejected our harvest outright or paid extreme discount prices, pushing my family and cooperative members into severe seasonal debt.",
-    solution: "The Mount Elgon Cooperative union distributed TSS 400 GSM Food-Grade Crop Guard Pro tarpaulins. Equipped with volcanic African Sun stabilizers and a direct food-grade inner matrix, these sheets isolated the damp soil, blocked high solar radiation heat, and allowed the cherries to dry in a pristine, uncontaminated environment.",
-    testimonial: "Drying coffee directly on dirt almost drove my family into debt because buyers would pay pennies for contaminated beans. Since using the TSS Crop Guard Pro, our beans are flawlessly clean. We sold our entire Bugisu Arabica crop at a specialty premium grade this year, doubling our farmgate earnings!",
-    materialUsed: "TSS Crop Guard Pro (400 GSM, Specialty Food-Grade)",
-    imageKey: "coffee",
-    impactMetrics: [
-      { label: "Post-Harvest Defect Loss", value: "< 2%", detail: "Down from 35% soil rot" },
-      { label: "Premium Farmgate Price", value: "+44%", detail: "Spec-grade export certified" },
-      { label: "Drying Time Cut", value: "8 Days", detail: "Shortened from 14-day average" }
-    ]
-  },
-  {
-    id: "story-2",
-    category: "storage",
-    categoryLabel: "Cooperative Warehousing",
-    title: "Retaining Dry Integrity: Hermetic Maize Storage Defense",
-    farmerName: "Ronald Mugisha",
-    location: "Masaka United Farmers Cooperative",
-    challenge: "Persistent, erratic rainy seasons in Masaka caused high relative humidity. Moisture from the concrete warehouse slabs seeped up into primary storage pallets, turning dry maize sacks damp, encouraging aflatoxins, and rotting hundreds of storage bags every season. This directly threatened cooperative contracts and members' food security.",
-    solution: "Lined storage vaults and stacked bags directly upon TSS Heavy-Duty 650 GSM Carrier Shield sheets. These sheets feature 100% hermetic dual-laminated PE sheaths and ultrasonically welded multi-season seams to seal off ascending ground condensation and roof dripping.",
-    testimonial: "We used to lose hundreds of corn and robusta bags every single rainy season to dampness rising from the warehouse slab. Laying down TSS Heavy-Duty sheets under our pallets has created an impenetrable water barrier. Our inventory remains perfectly dry, shielding the livelihoods of over 11,200 farmers.",
-    materialUsed: "TSS Heavy-Duty Carrier Shield (650 GSM Poly-PVC Core)",
-    imageKey: "factory",
-    impactMetrics: [
-      { label: "Stored Stock Spoilage", value: "0%", detail: "Completely eliminated damp rot" },
-      { label: "Annual Co-Op Savings", value: "3,500+ Bags Safeguarded", detail: "Protected collective volume" },
-      { label: "Protected Farmer Families", value: "11,200+", detail: "Secured regional market value" }
-    ]
-  },
-  {
-    id: "story-3",
-    category: "transit",
-    categoryLabel: "Logistics & Transportation",
-    title: "Waterproof Long-Haul Carrier Corridor Security",
-    farmerName: "David Ssekamanya",
-    location: "Gulu Regional Transit Corridor",
-    challenge: "Long-haul flatbed trailers traversing the Kampala-Gulu-South Sudan trading corridor faced unpredictable tropical downpours. Weak, standard 150 GSM tarpaulins regularly developed micro-tears under highway winds, letting rain seep in and rot entire container-loads of grain transit cargo, causing high client reimbursement claims.",
-    solution: "Outfitted our entire transit fleet with Custom TSS 850 GSM Ultimate Carrier Shield covers. Designed with cross-woven 1300D polyester filaments, reinforced corners, and steel eyelets spaced every 30cm to lock onto trailer trailers securely under high atmospheric drag.",
-    testimonial: "Tropical rainstorms on the way to Gulu can ruin a full load of grain in minutes if your truck covers leak. Our TSS Carrier Shield is completely leak-proof and handles high-velocity highway wind resistance without a single tear. We have hit zero cargo claims over active transit contracts.",
-    materialUsed: "TSS Ultimate Highway Armor (850 GSM Double-Reinforced PVC)",
-    imageKey: "truck",
-    impactMetrics: [
-      { label: "Transit Water Claims", value: "0.00%", detail: "Zero grain rot claims" },
-      { label: "Annual Transporter Net", value: "+18%", detail: "From insurance & quality bonuses" },
-      { label: "Average Tarp Lifespan", value: "4+ Years", detail: "Stands up to high equatorial UV" }
-    ]
-  }
-];
-
 export default function SuccessStories() {
-  const [activeCategory, setActiveCategory] = useState<'all' | 'drying' | 'storage' | 'transit'>('all');
+  const [activeCategory, setActiveCategory] = useState<'all' | 'PROMOTIONAL' | 'storage' | 'transit'>('all');
 
   const filteredStories = SUCCESS_STORIES.filter(s => {
     if (activeCategory === 'all') return true;
     return s.category === activeCategory;
   });
 
-  const getStoryIconOnDemand = (cat: 'drying' | 'storage' | 'transit') => {
+  const getStoryIconOnDemand = (cat: 'PROMOTIONAL' | 'storage' | 'transit') => {
     switch (cat) {
-      case 'drying':
+      case 'PROMOTIONAL':
         return <Droplets className="w-5 h-5 text-amber-500" />;
       case 'storage':
         return <Warehouse className="w-5 h-5 text-amber-500" />;
@@ -114,9 +58,9 @@ export default function SuccessStories() {
     }
   };
 
-  const getStoryImageFallback = (key: 'coffee' | 'factory' | 'truck') => {
+  const getStoryImageFallback = (key: 'PROMOTIONAL' | 'factory' | 'truck') => {
     if (key === 'truck') return "/images/yellow_tarp_truck_1780390607794.png";
-    if (key === 'coffee') return "/images/PROMOTIONAL.jpg";
+    if (key === 'PROMOTIONAL') return "/images/PROMOTIONAL.png";
     return "/images/tarpaulin_customization_hub_1780388737537.png";
   };
 
@@ -141,7 +85,7 @@ export default function SuccessStories() {
           <div className="flex flex-wrap justify-center gap-2 mt-8">
             {[
               { id: 'all', label: 'All Case Studies' },
-              { id: 'drying', label: 'Meticulous Drying' },
+              { id: 'PROMOTIONAL', label: 'Meticulous Drying' },
               { id: 'storage', label: 'Safe Storage' },
               { id: 'transit', label: 'Secure Transport' }
             ].map((tab) => (
