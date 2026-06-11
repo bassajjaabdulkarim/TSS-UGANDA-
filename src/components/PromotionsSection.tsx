@@ -39,13 +39,13 @@ export default function PromotionsSection() {
     {
       id: 3,
       type: 'offers',
-      badge: 'MASANYU PROMO',
+      badge: 'TSS UG MASANYU PROMO',
       badgeColor: 'bg-yellow-400 text-slate-900 border-yellow-300',
       title: 'TSS UG Masanyu Buy & Win Promotion',
-      description: 'Buy any heavy-duty or economy tarpaulins from our catalog and stand a chance to win amazing gifts (heavy duty straps, branded shirts, premium toolkits) and instant cashbacks! Draw conducted live weekly at our showroom yard in Kampala.',
+      description: 'TO PARTICIPATE ,BUY A TARPAULIN PIECE FROM ANY OF OUR AGENTS NEAR YOU , A LUCKY COUPON WILL BE PROVIDED TO YOU ,FILL IT IN WITH YOUR CONTACT & NAME .LEAVE A COPY WITH OUR AGENTS & KEEP ONE . ALL WINNERS WILL BE ANNOUNCED ON RADIO EVERY THURSDAY AND FRIDAY.',
       offerValue: 'LUCKY GIFTS & WIN',
       validUntil: 'Weekly Draw Live: Sat 4 PM',
-      cta: 'Inquire Win Terms',
+      cta: 'FOLLOW US ON SOCIAL MEDIA TO STAY UPDATED',
       icon: Gift,
       bgColor: 'border-l-4 border-l-blue-900 bg-blue-50/10 border-slate-200'
     }
@@ -71,10 +71,10 @@ export default function PromotionsSection() {
             <span>Active Live Events & Campaigns</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-blue-950 font-display uppercase tracking-tight">
-            TSS UG MASANYU BUY & WIN PROMOTION
+            TSS UG MASANYU 
           </h2>
           <p className="mt-4 text-slate-600 text-xs sm:text-sm font-medium leading-relaxed">
-            TO PARTICIPATE ,BUY A TARPAULIN PIECE FROM ANY OF OUR AGENTS NEAR YOU , A LUCKY COUPON WILL BE PROVIDED TO YOU ,FILL IT IN WITH YOUR CONTACT & NAME .LEAVE A COPY WITH OUR AGENTS & KEEP ONE . ALL WINNERS WILL BE ANNOUNCED ON RADIO EVERY THURSDAY AND FRIDAY .
+            BUY & WIN PROMOTION.
           </p>
 
           {/* Filtering Tabs */}
