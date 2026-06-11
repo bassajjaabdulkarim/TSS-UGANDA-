@@ -172,12 +172,12 @@ export default function SuccessStories() {
                     {/* Challenge & Solution details */}
                     <div className="space-y-4 text-xs leading-relaxed text-slate-600 font-light pr-2">
                       <div>
-                        <strong className="block text-[10px] font-mono font-bold uppercase text-red-500 tracking-wider mb-1">The Post-Harvest Challenge:</strong>
+                        <strong className="block text-[10px] font-mono font-bold uppercase text-red-500 tracking-wider mb-1">REMARKS:</strong>
                         <p>{story.challenge}</p>
                       </div>
                       
                       <div>
-                        <strong className="block text-[10px] font-mono font-bold uppercase text-blue-900 tracking-wider mb-1">The TSS Solution:</strong>
+                        <strong className="block text-[10px] font-mono font-bold uppercase text-blue-900 tracking-wider mb-1">TSS MISSION:</strong>
                         <p>{story.solution}</p>
                       </div>
                     </div>
@@ -196,7 +196,7 @@ export default function SuccessStories() {
                         </div>
                         <span className="inline-flex items-center gap-1 text-[9px] text-emerald-400 font-bold uppercase font-mono">
                           <ShieldCheck className="w-4 h-4 text-emerald-400" />
-                          <span>Verified Case study</span>
+                          <span>Verified Board Member</span>
                         </span>
                       </div>
                     </div>
