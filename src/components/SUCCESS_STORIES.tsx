@@ -12,7 +12,7 @@ export const SUCCESS_STORIES: SuccessStory[] = [
     solution: "Our mission is to strengthen agricultural value chains particularly coffee by providing durable tarpaulins that improve post harvest handling , storage and transportation",
     testimonial: "By partnering with farmers across uganda  especially coffee growers we are turning tarpaulin distribution into a pathway for better incomes ,improved livelihoods and stronger communities",
     materialUsed: "TSS Crop Guard Pro (400 GSM, Specialty Food-Grade)",
-    imageKey: "PROMOTIONAL",
+    imageKey: "FOUNDER",
     impactMetrics: [
       { label: "Post-Harvest Defect Loss", value: "< 2%", detail: "Down from 35% soil rot" },
       { label: "Premium Farmgate Price", value: "+44%", detail: "Spec-grade export certified" },
