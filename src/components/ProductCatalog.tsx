@@ -372,9 +372,9 @@ export default function ProductCatalog({ onNavigate }: ProductCatalogProps) {
         <div className="bg-gradient-to-br from-blue-900 via-blue-955 to-slate-950 rounded-xl p-8 mt-16 text-white border border-blue-800 flex flex-col md:flex-row justify-between items-center gap-6 shadow-xl relative overflow-hidden">
           <div className="absolute top-0 right-0 w-32 h-32 bg-yellow-400/5 rounded-full blur-2xl" />
           <div className="md:max-w-xl relative z-10">
-            <h4 className="text-xl font-bold font-display text-white mb-2 uppercase tracking-wide">Be Xtra Ordinary Enjoy</h4>
+            <h4 className="text-xl font-bold font-display text-white mb-2 uppercase tracking-wide">B2B</h4>
             <p className="text-xs text-slate-300 font-light leading-relaxed">
-              Shop Conveniently 24/7 at Affordable Unbeatable Prices ,Secure cashless transactions , Reliable fast delivery & Accesible website Anytime Anywhere.
+              For Bulk /Wholesale purchases Anywhere .
             </p>
           </div>
           <div className="flex flex-col sm:flex-row items-center gap-3 shrink-0 w-full md:w-auto z-10">
@@ -382,7 +382,7 @@ export default function ProductCatalog({ onNavigate }: ProductCatalogProps) {
               href="tel:+256761414008"
               className="px-6 py-3.5 bg-yellow-400 hover:bg-yellow-500 text-blue-950 rounded-lg font-black text-xs uppercase tracking-widest text-center w-full md:w-auto transition-all shadow-lg shadow-yellow-500/10 hover:scale-105 border border-yellow-300"
             >
-              VISIT WEBSITE : teaxy.store 
+              CONTACT : +256 761414008 
             </a>
           </div>
         </div>
