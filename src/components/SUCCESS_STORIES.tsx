@@ -5,7 +5,7 @@ export const SUCCESS_STORIES: SuccessStory[] = [
     id: "story-1",
     category: "drying",
     categoryLabel: "TSS UGANDA BOARD MEMBER",
-    title: "Overcoming Ochratoxin: Bugisu Arabica Premium Grade Victory",
+    title: "Appreciation Message to All Our Esteemed Customers",
     farmerName: "BASSAJJA ABDULKARIM",
     location: "C.E.O / FOUNDER TSS UGANDA",
     challenge: "TSS UGANDA Is Privileged To Be Able To Earn Your Business & will continue to do everythng in our power to offer the best services , whatever the future may bring our way , our underlying construct of serving our customers with convinience , quality products remains the same & unflttered thank you very much for your continued support.",

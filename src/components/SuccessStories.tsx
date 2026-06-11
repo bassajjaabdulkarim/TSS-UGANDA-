@@ -192,7 +192,7 @@ export default function SuccessStories() {
                       <div className="mt-4 pt-3 border-t border-blue-900 flex items-center justify-between">
                         <div>
                           <p className="text-xs font-bold text-white leading-none">{story.farmerName}</p>
-                          <p className="text-[9px] text-amber-400 font-bold uppercase tracking-wider mt-1">{story.category === "transit" ? "Transporter" : "Lead Representative"}</p>
+                          <p className="text-[9px] text-amber-400 font-bold uppercase tracking-wider mt-1">{story.category === "transit" ? "Transporter" : "C.E.O / FOUNDER TSS UGANDA"}</p>
                         </div>
                         <span className="inline-flex items-center gap-1 text-[9px] text-emerald-400 font-bold uppercase font-mono">
                           <ShieldCheck className="w-4 h-4 text-emerald-400" />
