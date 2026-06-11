@@ -60,7 +60,7 @@ export default function SuccessStories() {
 
   const getStoryImageFallback = (key: 'FOUNDER' | 'factory' | 'truck') => {
     if (key === 'truck') return "/images/yellow_tarp_truck_1780390607794.png";
-    if (key === 'FOUNDER') return "/images/FOUNDER.jpg";
+    if (key === 'FOUNDER') return "/images/FOUNDER.png";
     return "/images/tarpaulin_customization_hub_1780388737537.png";
   };
 
