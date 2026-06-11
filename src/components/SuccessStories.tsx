@@ -22,7 +22,7 @@ import { SUCCESS_STORIES } from './SUCCESS_STORIES';
 
 export interface SuccessStory {
   id: string;
-  category: 'PROMOTONAL' | 'storage' | 'transit';
+  category: 'FOUNDER' | 'storage' | 'transit';
   categoryLabel: string;
   title: string;
   farmerName: string;
@@ -35,21 +35,21 @@ export interface SuccessStory {
     detail: string;
   }[];
   testimonial: string;
-  imageKey: 'PROMOTIONAL' | 'factory' | 'truck';
+  imageKey: 'FOUNDER' | 'factory' | 'truck';
   materialUsed: string;
 }
 
 export default function SuccessStories() {
-  const [activeCategory, setActiveCategory] = useState<'all' | 'PROMOTIONAL' | 'storage' | 'transit'>('all');
+  const [activeCategory, setActiveCategory] = useState<'all' | 'FOUNDER' | 'storage' | 'transit'>('all');
 
   const filteredStories = SUCCESS_STORIES.filter(s => {
     if (activeCategory === 'all') return true;
     return s.category === activeCategory;
   });
 
-  const getStoryIconOnDemand = (cat: 'PROMOTIONAL' | 'storage' | 'transit') => {
+  const getStoryIconOnDemand = (cat: 'FOUNDER' | 'storage' | 'transit') => {
     switch (cat) {
-      case 'PROMOTIONAL':
+      case 'FOUNDER':
         return <Droplets className="w-5 h-5 text-amber-500" />;
       case 'storage':
         return <Warehouse className="w-5 h-5 text-amber-500" />;
@@ -58,9 +58,9 @@ export default function SuccessStories() {
     }
   };
 
-  const getStoryImageFallback = (key: 'PROMOTIONAL' | 'factory' | 'truck') => {
+  const getStoryImageFallback = (key: 'FOUNDER' | 'factory' | 'truck') => {
     if (key === 'truck') return "/images/yellow_tarp_truck_1780390607794.png";
-    if (key === 'PROMOTIONAL') return "/images/PROMOTIONAL.png";
+    if (key === 'FOUNDER') return "/images/FOUNDER.jpg";
     return "/images/tarpaulin_customization_hub_1780388737537.png";
   };
 
@@ -85,7 +85,7 @@ export default function SuccessStories() {
           <div className="flex flex-wrap justify-center gap-2 mt-8">
             {[
               { id: 'all', label: 'All Case Studies' },
-              { id: 'PROMOTIONAL', label: 'Meticulous Drying' },
+              { id: 'FOUNDER', label: 'Meticulous Drying' },
               { id: 'storage', label: 'Safe Storage' },
               { id: 'transit', label: 'Secure Transport' }
             ].map((tab) => (
