@@ -30,7 +30,7 @@ export const SUCCESS_STORIES: SuccessStory[] = [
     solution: "Order now Anytime,Anywhere.",
     testimonial: "We are living in a generation where time is money ,make business shopping easy",
     materialUsed: "TSS Heavy-Duty Carrier Shield (650 GSM Poly-PVC Core)",
-    imageKey: "factory",
+    imageKey: "TEAXY",
     impactMetrics: [
       { label: "Stored Stock Spoilage", value: "0%", detail: "Completely eliminated damp rot" },
       { label: "Annual Co-Op Savings", value: "3,500+ Bags Safeguarded", detail: "Protected collective volume" },

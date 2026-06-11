@@ -22,7 +22,7 @@ import { SUCCESS_STORIES } from './SUCCESS_STORIES';
 
 export interface SuccessStory {
   id: string;
-  category: 'FOUNDER' | 'storage' | 'transit';
+  category: 'FOUNDER' | 'TEAXY' | 'transit';
   categoryLabel: string;
   title: string;
   farmerName: string;
@@ -35,33 +35,33 @@ export interface SuccessStory {
     detail: string;
   }[];
   testimonial: string;
-  imageKey: 'FOUNDER' | 'factory' | 'truck';
+  imageKey: 'FOUNDER' | 'TEAXY' | 'truck';
   materialUsed: string;
 }
 
 export default function SuccessStories() {
-  const [activeCategory, setActiveCategory] = useState<'all' | 'FOUNDER' | 'storage' | 'transit'>('all');
+  const [activeCategory, setActiveCategory] = useState<'all' | 'FOUNDER' | 'TEAXY' | 'transit'>('all');
 
   const filteredStories = SUCCESS_STORIES.filter(s => {
     if (activeCategory === 'all') return true;
     return s.category === activeCategory;
   });
 
-  const getStoryIconOnDemand = (cat: 'FOUNDER' | 'storage' | 'transit') => {
+  const getStoryIconOnDemand = (cat: 'FOUNDER' | 'TEAXY' | 'transit') => {
     switch (cat) {
       case 'FOUNDER':
         return <Droplets className="w-5 h-5 text-amber-500" />;
-      case 'storage':
+      case 'TEAXY':
         return <Warehouse className="w-5 h-5 text-amber-500" />;
       case 'transit':
         return <Truck className="w-5 h-5 text-amber-500" />;
     }
   };
 
-  const getStoryImageFallback = (key: 'FOUNDER' | 'factory' | 'truck') => {
+  const getStoryImageFallback = (key: 'FOUNDER' | 'TEAXY' | 'truck') => {
     if (key === 'truck') return "/images/yellow_tarp_truck_1780390607794.png";
     if (key === 'FOUNDER') return "/images/FOUNDER.png";
-    return "/images/tarpaulin_customization_hub_1780388737537.png";
+    return "/images/TEAXY.png";
   };
 
   return (
@@ -86,7 +86,7 @@ export default function SuccessStories() {
             {[
               { id: 'all', label: 'All Case Studies' },
               { id: 'FOUNDER', label: 'Meticulous Drying' },
-              { id: 'storage', label: 'Safe Storage' },
+              { id: 'TEAXY', label: 'Safe Storage' },
               { id: 'transit', label: 'Secure Transport' }
             ].map((tab) => (
               <button
@@ -192,7 +192,7 @@ export default function SuccessStories() {
                       <div className="mt-4 pt-3 border-t border-blue-900 flex items-center justify-between">
                         <div>
                           <p className="text-xs font-bold text-white leading-none">{story.farmerName}</p>
-                          <p className="text-[9px] text-amber-400 font-bold uppercase tracking-wider mt-1">{story.category === "transit" ? "Transporter" : "C.E.O / FOUNDER TSS UGANDA"}</p>
+                          <p className="text-[9px] text-amber-400 font-bold uppercase tracking-wider mt-1">{story.category === "transit" ? "Transporter" : "C.E.O / FOUNDER TSS UGANDA" : "Customer Care Assistant" }</p>
                         </div>
                         <span className="inline-flex items-center gap-1 text-[9px] text-emerald-400 font-bold uppercase font-mono">
                           <ShieldCheck className="w-4 h-4 text-emerald-400" />
