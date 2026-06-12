@@ -132,7 +132,7 @@ export default function SuccessStories() {
                       
                       {/* Floating material identification tag */}
                       <span className="absolute bottom-4 left-4 bg-blue-950/95 text-[10px] font-mono text-amber-400 px-3 py-1.5 rounded border border-amber-500/20 font-bold uppercase tracking-wider">
-                        Material: {story.materialUsed}
+                        : {story.materialUsed}
                       </span>
                     </div>
 
