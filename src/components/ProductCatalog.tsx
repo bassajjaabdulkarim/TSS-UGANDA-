@@ -163,7 +163,7 @@ const ECONOMY_SHOWCASE: ShowcaseItem[] = [
   {
     id: "eco-green",
     name: "ARMY GREEN ECONOMY TARPAULINS",
-    gsm: ,
+    gsm: 250,
     material: "Medium-Density Laminated Polyethylene Matrix",
     thickness: "0.24 mm",
     uvProtection: "Standard Solar UV-A/B Equatorial Coating",
@@ -171,13 +171,13 @@ const ECONOMY_SHOWCASE: ShowcaseItem[] = [
     tearStrength: "Standard Cross-Weave Grid",
     use: "Outdoor standing goods, harvest stacks, timber yards, and field equipment.",
     why: "Excellent protective weather barrier optimized for outdoor storage, protecting crop yields, construction items, and open-air goods. Blends perfectly with outdoor agricultural environments.",
-    color: "",
+    color: "Army Green",
     colorClass: "bg-emerald-800",
     image: "/images/army_green_use_1780393793155.png",
     features: [
       "Static water pooling & heavy hydro static pressure",
-      "Extreme uv degradation & sub surface heat build up",
-      "Industrial pollutants & Acid rains"
+      "Low-visibility army green tone blends with farm gardens, deterring theft",
+      "Aluminum eyelets located every 100cm for simple rope securement"
     ],
     linkToProductId: "p3"
   },
@@ -192,13 +192,13 @@ const ECONOMY_SHOWCASE: ShowcaseItem[] = [
     tearStrength: "Standard Cross-Weave Grid",
     use: "Covering machinery, crates, and storage goods in open-air yards.",
     why: "Easily reflected and identified at any time of the day or night. Outstanding thermal and light reflection, allowing ease of visual security monitoring day and night to protect assets.",
-    color: "",
+    color: "Grey",
     colorClass: "bg-slate-500",
     image: "/images/grey_tarp_use_1780393676967.png",
     features: [
-      "Oil , grease & fuel spills",
-      "Sharp edge puncture & tearing",
-      "Condesation & moisture trapping"
+      "Easily recognized under security torches or vehicle headlights",
+      "Outstanding heat-deflection traits - keeps underlying engines cooler",
+      "Dual-coated rot-proof layer avoids degradation in damp outdoor yards"
     ],
     linkToProductId: "p3"
   }
@@ -274,7 +274,7 @@ export default function ProductCatalog({ onNavigate }: ProductCatalogProps) {
 
             {/* List Specs Checklist */}
             <div className="space-y-1.5 text-xs text-slate-600 pt-2 border-t border-slate-100">
-              <span className="text-[9px] uppercase font-mono font-bold tracking-wider block text-slate-400 mb-1">Resistant To</span>
+              <span className="text-[9px] uppercase font-mono font-bold tracking-wider block text-slate-400 mb-1">Detailed Features</span>
               {item.features.map((feat, index) => (
                 <div key={index} className="flex items-start gap-1.5">
                   <Check className="w-3.5 h-3.5 text-emerald-600 mt-0.5 flex-shrink-0" />
@@ -319,7 +319,7 @@ export default function ProductCatalog({ onNavigate }: ProductCatalogProps) {
             Uganda-Optimized Tarpaulin Material Catalog
           </h2>
           <p className="mt-4 text-base sm:text-lg text-slate-600 font-light max-w-2xl mx-auto">
-            For All Farmers In Uganda,Get Real Value from your Harvests This Season by using Clean & Guaranteed Tarpaulin. Buy TSS Uganda  tarpaulins from a TSS Authorized Dealer near you at the Lowest Prices OR Order on teaxy.store .
+            TSS Uganda structures tarpaulins with dense high-grade weave matrices, dual lamination, and extreme equatorial UV defense. Find each class, color option, and its verified active duty usage in-field.
           </p>
         </div>
 
