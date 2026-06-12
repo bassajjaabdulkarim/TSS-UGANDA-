@@ -11,7 +11,7 @@ export const SUCCESS_STORIES: SuccessStory[] = [
     challenge: "TSS UGANDA Is Privileged To Be Able To Earn Your Business & will continue to do everythng in our power to offer the best services , whatever the future may bring our way , our underlying construct of serving our customers with convinience , quality products remains the same & unfluttered thank you very much for your continued support.",
     solution: "Our mission is to strengthen agricultural value chains particularly coffee by providing durable tarpaulins that improve post harvest handling , storage and transportation",
     testimonial: "By partnering with farmers across Uganda  especially coffee growers we are turning tarpaulin distribution into a pathway for better incomes ,improved livelihoods and stronger communities",
-    materialUsed: "TSS Crop Guard Pro (400 GSM, Specialty Food-Grade)",
+    materialUsed: "TSS UG",
     imageKey: "FOUNDER",
     impactMetrics: [
       { label: "Post-Harvest Defect Loss", value: "< 2%", detail: "Down from 35% soil rot" },
@@ -47,7 +47,7 @@ export const SUCCESS_STORIES: SuccessStory[] = [
     challenge: "TSS UGANDA Is a partner you can rely on from the first day of purchase to the last day on the market, providing you with marketing material & when they promise they deliver.",
     solution: "Through marketing & fast delivery services ,TSS UG enables us as Miti hardware to reach a modest number of farmers",
     testimonial: "With TSS UGANDA'S Marketing We  are expanding distribution to remote areas ensuring inclusivity & access for small holder farmers thus increasing incomes ",
-    materialUsed: "TSS UG",
+    materialUsed: "ANYWHERE",
     imageKey: "truck",
     impactMetrics: [
       { label: "Transit Water Claims", value: "0.00%", detail: "Zero grain rot claims" },

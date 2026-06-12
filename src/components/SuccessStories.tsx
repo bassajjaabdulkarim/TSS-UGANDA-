@@ -22,7 +22,7 @@ import { SUCCESS_STORIES } from './SUCCESS_STORIES';
 
 export interface SuccessStory {
   id: string;
-  category: 'FOUNDER' | 'TEAXY' | 'transit';
+  category: 'FOUNDER' | 'TEAXY' | 'MITI';
   categoryLabel: string;
   title: string;
   farmerName: string;
@@ -35,31 +35,31 @@ export interface SuccessStory {
     detail: string;
   }[];
   testimonial: string;
-  imageKey: 'FOUNDER' | 'TEAXY' | 'truck';
+  imageKey: 'FOUNDER' | 'TEAXY' | 'MITI';
   materialUsed: string;
 }
 
 export default function SuccessStories() {
-  const [activeCategory, setActiveCategory] = useState<'all' | 'FOUNDER' | 'TEAXY' | 'transit'>('all');
+  const [activeCategory, setActiveCategory] = useState<'all' | 'FOUNDER' | 'TEAXY' | 'MITI'>('all');
 
   const filteredStories = SUCCESS_STORIES.filter(s => {
     if (activeCategory === 'all') return true;
     return s.category === activeCategory;
   });
 
-  const getStoryIconOnDemand = (cat: 'FOUNDER' | 'TEAXY' | 'transit') => {
+  const getStoryIconOnDemand = (cat: 'FOUNDER' | 'TEAXY' | 'MITI') => {
     switch (cat) {
       case 'FOUNDER':
         return <Droplets className="w-5 h-5 text-amber-500" />;
       case 'TEAXY':
         return <Warehouse className="w-5 h-5 text-amber-500" />;
-      case 'transit':
+      case 'MITI':
         return <Truck className="w-5 h-5 text-amber-500" />;
     }
   };
 
-  const getStoryImageFallback = (key: 'FOUNDER' | 'TEAXY' | 'truck') => {
-    if (key === 'truck') return "/images/yellow_tarp_truck_1780390607794.png";
+  const getStoryImageFallback = (key: 'FOUNDER' | 'TEAXY' | 'MITI') => {
+    if (key === 'MITI') return "/images/MITI.png";
     if (key === 'FOUNDER') return "/images/FOUNDER.png";
     return "/images/TEAXY.png";
   };
@@ -87,7 +87,7 @@ export default function SuccessStories() {
               { id: 'all', label: 'All Case Studies' },
               { id: 'FOUNDER', label: 'Meticulous Drying' },
               { id: 'TEAXY', label: 'Safe Storage' },
-              { id: 'transit', label: 'Secure Transport' }
+              { id: 'MITI', label: 'Secure Transport' }
             ].map((tab) => (
               <button
                 key={tab.id}
