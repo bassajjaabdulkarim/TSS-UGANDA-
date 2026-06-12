@@ -302,7 +302,7 @@ export default function ProductCatalog({ onNavigate }: ProductCatalogProps) {
             className="w-full bg-blue-900 hover:bg-blue-800 text-yellow-300 border border-blue-800/80 font-extrabold text-[11px] py-3 rounded-lg uppercase tracking-wider transition-all shadow flex items-center justify-center gap-1.5 cursor-pointer hover:scale-[1.01]"
           >
             <BadgeCheck className="w-4 h-4 text-yellow-400" />
-            <span> Order  on <teaxy className="store"></teaxy> </span>
+            <span> Order  Here <teaxy className="store"></teaxy> </span>
           </a>
           <div className="text-center text-[10px] text-slate-500 font-medium font-mono uppercase mt-1">
             AVAILABLE NOW 
