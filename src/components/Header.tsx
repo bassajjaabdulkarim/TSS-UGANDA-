@@ -41,7 +41,7 @@ export default function Header({ onNavigate, activeSection }: HeaderProps) {
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-1.5">
           <div className="flex items-center gap-1.5">
             <span className="inline-block w-2 h-2 rounded-full bg-yellow-400 animate-pulse"></span>
-            <span className="tracking-wide uppercase text-[10px] text-yellow-105 font-bold">Serving East Africa's Agriculture, Logistics & Construction Supply Chains</span>
+            <span className="tracking-wide uppercase text-[10px] text-yellow-105 font-bold">TSS UGANDA IS A QUALITY TARPAULIN DISTRIBUTING COMPANY ACROSS UGANDA & E.AFRICA </span>
           </div>
           <div className="flex items-center gap-4 text-[10px] tracking-wide font-mono uppercase">
             <span className="text-blue-100 flex items-center gap-1 font-sans">
