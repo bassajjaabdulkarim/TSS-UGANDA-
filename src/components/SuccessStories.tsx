@@ -196,7 +196,7 @@ export default function SuccessStories() {
                         </div>
                         <span className="inline-flex items-center gap-1 text-[9px] text-emerald-400 font-bold uppercase font-mono">
                           <ShieldCheck className="w-4 h-4 text-emerald-400" />
-                          <span>Verified Board Member</span>
+                          <span>Verified Remarks</span>
                         </span>
                       </div>
                     </div>
