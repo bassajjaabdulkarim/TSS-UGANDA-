@@ -305,7 +305,7 @@ export default function ProductCatalog({ onNavigate }: ProductCatalogProps) {
             <span> Order  Here <teaxy className="store"></teaxy> </span>
           </a>
           <div className="text-center text-[10px] text-slate-500 font-medium font-mono uppercase mt-1">
-            AVAILABLE NOW 
+            THE NO.1 CHOICE 
           </div>
         </div>
       </div>
