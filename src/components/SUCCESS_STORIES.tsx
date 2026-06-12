@@ -32,8 +32,8 @@ export const SUCCESS_STORIES: SuccessStory[] = [
     materialUsed: "24/7 Convinience",
     imageKey: "TEAXY",
     impactMetrics: [
-      { label: "Stored Stock Spoilage", value: "0%", detail: "Completely eliminated damp rot" },
-      { label: "Annual Co-Op Savings", value: "3,500+ Bags Safeguarded", detail: "Protected collective volume" },
+      { label: "Online Orders Processed", value: "5,000+", detail: "SUCCESSFUL DIGITAL TRANSACTIONS" },
+      { label: "Average Delivery Time ", value: "< 24 hrs", detail: "Fast Regional Fullfillment" },
       { label: "In partnership for", value: "2+ years", detail: "with TSS UGANDA" }
     ]
   },
