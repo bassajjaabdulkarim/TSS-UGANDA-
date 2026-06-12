@@ -16,7 +16,7 @@ export const SUCCESS_STORIES: SuccessStory[] = [
     impactMetrics: [
       { label: "PARTNER STORES", value: "50+", detail: "REGIONAL DISTRIBUTION NETWORK" },
       { label: "TARPAULIN DISTRIBUTION", value: "10,000+", detail: "METRIC TONNES" },
-      { label: "SERVING C.E.O FOR", value: "4+ YEARS ", detail: "WITH DETERMINATION & COURAGE" }
+      { label: "SERVING C.E.O FOR", value: "4+ YEARS ", detail: "COMMITTED TO COMMUNITY IMPACT " }
     ]
   },
   {
