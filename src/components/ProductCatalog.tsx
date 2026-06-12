@@ -327,13 +327,13 @@ export default function ProductCatalog({ onNavigate }: ProductCatalogProps) {
         <div className="mb-20">
           <div className="border-b border-slate-200 pb-4 mb-8 flex flex-col md:flex-row justify-between items-start md:items-end gap-3">
             <div>
-              <span className="text-xs font-mono font-bold tracking-[0.2em] text-blue-900 uppercase block mb-1">The True Face Of Durability</span>
+              <span className="text-xs font-mono font-bold tracking-[0.2em] text-blue-900 uppercase block mb-1">CATEGORY 01 (PREMIUM)</span>
               <h3 className="text-2xl sm:text-3xl font-extrabold font-display text-slate-950 tracking-tight flex items-center gap-2">
                 Heavy-Duty Tarpaulins <span className="text-xs font-bold font-mono tracking-widest text-[#d97706] bg-amber-50 border border-amber-200 px-2 py-0.5 rounded uppercase font-semibold">400 - 800 GSM</span>
               </h3>
             </div>
             <p className="text-xs text-slate-500 max-w-md font-light leading-relaxed">
-              Suitable for Heavy Duty and Industrial activities.
+              Resistant to high friction, continuous sun baking, heavy rainfall, and intense cargo tie-down strain on transport routes and farm-coops.
             </p>
           </div>
 
@@ -346,13 +346,13 @@ export default function ProductCatalog({ onNavigate }: ProductCatalogProps) {
         <div className="mb-16">
           <div className="border-b border-slate-200 pb-4 mb-8 flex flex-col md:flex-row justify-between items-start md:items-end gap-3">
             <div>
-              <span className="text-xs font-mono font-bold tracking-[0.2em] text-blue-900 uppercase block mb-1">FOR THE LOWEST BUDGET</span>
+              <span className="text-xs font-mono font-bold tracking-[0.2em] text-blue-900 uppercase block mb-1">CATEGORY 02 (AFFORDABLE)</span>
               <h3 className="text-2xl sm:text-3xl font-extrabold font-display text-slate-950 tracking-tight flex items-center gap-2">
                 Economy Tarpaulins <span className="text-xs font-bold font-mono tracking-widest text-blue-900 bg-blue-50 border border-blue-105 px-2 py-0.5 rounded uppercase font-semibold">250 GSM</span>
               </h3>
             </div>
             <p className="text-xs text-slate-500 max-w-md font-light leading-relaxed">
-              Suitable For Light Weight Activities.
+              Highly affordable, exceptionally light to carry, simple to wash down, and quickly configured with ropes & timber layouts on the go.
             </p>
           </div>
 
@@ -365,9 +365,9 @@ export default function ProductCatalog({ onNavigate }: ProductCatalogProps) {
         <div className="bg-gradient-to-br from-blue-900 via-blue-955 to-slate-950 rounded-xl p-8 mt-16 text-white border border-blue-800 flex flex-col md:flex-row justify-between items-center gap-6 shadow-xl relative overflow-hidden">
           <div className="absolute top-0 right-0 w-32 h-32 bg-yellow-400/5 rounded-full blur-2xl" />
           <div className="md:max-w-xl relative z-10">
-            <h4 className="text-xl font-bold font-display text-white mb-2 uppercase tracking-wide">B 2 B Inquiries</h4>
+            <h4 className="text-xl font-bold font-display text-white mb-2 uppercase tracking-wide">Need Custom Shapes, Colors or Specialized Eyelet Pattern?</h4>
             <p className="text-xs text-slate-300 font-light leading-relaxed">
-              For Bulk /Wholesale purchases Anywhere .
+              TSS Uganda specializes in tailoring custom layouts. Whether you need a truck-side zipper, triangular architectural grommets, specialized hook-and-loop seal tape, or extra heavy eyelet reinforcement for severe mountain winds, our high-tech workshop in Kampala is fully equipped to meet your dimensions.
             </p>
           </div>
           <div className="flex flex-col sm:flex-row items-center gap-3 shrink-0 w-full md:w-auto z-10">
@@ -375,7 +375,7 @@ export default function ProductCatalog({ onNavigate }: ProductCatalogProps) {
               href="tel:+256761414008"
               className="px-6 py-3.5 bg-yellow-400 hover:bg-yellow-500 text-blue-950 rounded-lg font-black text-xs uppercase tracking-widest text-center w-full md:w-auto transition-all shadow-lg shadow-yellow-500/10 hover:scale-105 border border-yellow-300"
             >
-              CONTACT : +256 761414008
+              Call Specialist: +256 761414008
             </a>
           </div>
         </div>
