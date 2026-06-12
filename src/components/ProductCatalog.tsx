@@ -382,7 +382,7 @@ export default function ProductCatalog({ onNavigate }: ProductCatalogProps) {
               href="tel:+256761414008"
               className="px-6 py-3.5 bg-yellow-400 hover:bg-yellow-500 text-blue-950 rounded-lg font-black text-xs uppercase tracking-widest text-center w-full md:w-auto transition-all shadow-lg shadow-yellow-500/10 hover:scale-105 border border-yellow-300"
             >
-              CONTACT : +256 761414008 
+              Call/ WhatsApp : +256 761414008 
             </a>
           </div>
         </div>
