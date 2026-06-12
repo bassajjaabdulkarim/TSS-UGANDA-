@@ -78,16 +78,16 @@ export default function SuccessStories() {
             Success Stories: Real Impact Across Uganda
           </h2>
           <p className="mt-4 text-base sm:text-lg text-slate-600 font-light">
-            Read detailed case studies illustrating how TSS Uganda premium tarpaulins preserve quality, block molds, and secure export grades—directly uplifting farmgate earnings and transit security.
+            Read detailed case studies illustrating how TSS Uganda has strengthened agricultural value chains, partnered with 50+ hardware store and online platforms ,
           </p>
 
           {/* Quick Category Filtering */}
           <div className="flex flex-wrap justify-center gap-2 mt-8">
             {[
               { id: 'all', label: 'All Case Studies' },
-              { id: 'FOUNDER', label: 'Meticulous Drying' },
-              { id: 'TEAXY', label: 'Safe Storage' },
-              { id: 'MITI', label: 'Secure Transport' }
+              { id: 'FOUNDER', label: 'leadership' },
+              { id: 'TEAXY', label: 'Inclusivity' },
+              { id: 'MITI', label: 'community engagement' }
             ].map((tab) => (
               <button
                 key={tab.id}
