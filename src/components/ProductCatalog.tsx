@@ -241,8 +241,8 @@ export default function ProductCatalog({ onNavigate }: ProductCatalogProps) {
               rel="noopener noreferrer" 
               className="bg-amber-500 hover:bg-amber-600 text-slate-950 px-3 py-1.5 rounded-lg font-black text-[11px] font-mono tracking-wide uppercase transition-all shadow hover:scale-105 flex items-center gap-1"
             >
-              <span>.</span>
-              <span className="underline">.</span>
+              <span></span>
+              <span className="underline"></span>
             </a>
           </div>
         </div>
@@ -279,7 +279,7 @@ export default function ProductCatalog({ onNavigate }: ProductCatalogProps) {
 
             {/* Why Optimized */}
             <div className="mb-4 text-xs font-sans text-slate-600 leading-relaxed border-l-2 border-slate-300 pl-3 italic">
-              <strong>Why this choice:</strong> {item.why}
+              <strong>Why :</strong> {item.why}
             </div>
 
             {/* List Specs Checklist */}
@@ -374,7 +374,7 @@ export default function ProductCatalog({ onNavigate }: ProductCatalogProps) {
           <div className="md:max-w-xl relative z-10">
             <h4 className="text-xl font-bold font-display text-white mb-2 uppercase tracking-wide">B2B</h4>
             <p className="text-xs text-slate-300 font-light leading-relaxed">
-              For Bulk /Wholesale purchases Anywhere .
+              For Bulk /Wholesale purchases Anywhere.
             </p>
           </div>
           <div className="flex flex-col sm:flex-row items-center gap-3 shrink-0 w-full md:w-auto z-10">
