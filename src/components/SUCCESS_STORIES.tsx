@@ -16,7 +16,7 @@ export const SUCCESS_STORIES: SuccessStory[] = [
     impactMetrics: [
       { label: "Post-Harvest Defect Loss", value: "< 2%", detail: "Down from 35% soil rot" },
       { label: "Premium Farmgate Price", value: "+44%", detail: "Spec-grade export certified" },
-      { label: "Drying Time Cut", value: "8 Days", detail: "Shortened from 14-day average" }
+      { label: "SERVING C.E.O FOR", value: "4+ YEARS ", detail: "WITH DETERMINATION & COURAGE" }
     ]
   },
   {
@@ -34,7 +34,7 @@ export const SUCCESS_STORIES: SuccessStory[] = [
     impactMetrics: [
       { label: "Stored Stock Spoilage", value: "0%", detail: "Completely eliminated damp rot" },
       { label: "Annual Co-Op Savings", value: "3,500+ Bags Safeguarded", detail: "Protected collective volume" },
-      { label: "Protected Farmer Families", value: "11,200+", detail: "Secured regional market value" }
+      { label: "In partnership for", value: "2+ years", detail: "with TSS UGANDA" }
     ]
   },
   {
@@ -52,7 +52,7 @@ export const SUCCESS_STORIES: SuccessStory[] = [
     impactMetrics: [
       { label: "Transit Water Claims", value: "0.00%", detail: "Zero grain rot claims" },
       { label: "Annual Transporter Net", value: "+18%", detail: "From insurance & quality bonuses" },
-      { label: "Average Tarp Lifespan", value: "4+ Years", detail: "Stands up to high equatorial UV" }
+      { label: "DIDTRIBUTOR", value: "4+ Years", detail: "WITH HONESTY & EXCELLENCE" }
     ]
   }
 ];
