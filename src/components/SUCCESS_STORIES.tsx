@@ -27,7 +27,7 @@ export const SUCCESS_STORIES: SuccessStory[] = [
     farmerName: "Mr TEAXY",
     location: "Customer care Assistant",
     challenge: "Be Xtra Ordinary Enjoy Shopping at Affordable Unbeatable prices, with secure cashless transactions,conveniently 24/7 & Reliable fast delivery , Accessible  with just one tap,its power worth having at your finger tips ",
-    solution: "Order now Anytime,Anywhere.",
+    solution: "You Should be able to Order Anytime,Anywhere.",
     testimonial: "We are living in a generation where time is money ,make business shopping easy",
     materialUsed: "24/7 Convinience",
     imageKey: "TEAXY",
@@ -48,7 +48,7 @@ export const SUCCESS_STORIES: SuccessStory[] = [
     solution: "Through marketing & fast delivery services ,TSS UG enables us as Miti hardware to reach a modest number of farmers",
     testimonial: "With TSS UGANDA'S Marketing We  are expanding distribution to remote areas ensuring inclusivity & access for small holder farmers thus increasing incomes ",
     materialUsed: "ANYWHERE",
-    imageKey: "truck",
+    imageKey: "MITI",
     impactMetrics: [
       { label: "Transit Water Claims", value: "0.00%", detail: "Zero grain rot claims" },
       { label: "Annual Transporter Net", value: "+18%", detail: "From insurance & quality bonuses" },
