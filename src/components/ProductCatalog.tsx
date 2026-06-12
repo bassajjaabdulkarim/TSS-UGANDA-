@@ -35,7 +35,7 @@ const HEAVY_DUTY_SHOWCASE: ShowcaseItem[] = [
     id: "hd-yellow",
     name: "YELLOW HEAVY DUTY TARPAULINS",
     gsm: 650,
-    material: "Multi-layered High-Density Polyester PVC Core",
+    material: "24ft x 36ft",
     thickness: "0.55 mm",
     uvProtection: "Double Equatorial UV Shield (6.5% compound concentration)",
     waterproofLevel: "100% Hermetically Sealed Welded Seams",
@@ -55,7 +55,7 @@ const HEAVY_DUTY_SHOWCASE: ShowcaseItem[] = [
   {
     id: "hd-orange",
     name: "ORANGE HEAVY DUTY TARPAULINS",
-    material: "Reinforced High-Density Polyethylene with Dual LDPE Sheaths",
+    material: "20ft x 30ft",
     thickness: "0.38 mm",
     uvProtection: "Volcanic African Sun Stabilized (Max UV Barrier)",
     waterproofLevel: "100% Impermeable (Stops ground condensation rising)",
@@ -76,7 +76,7 @@ const HEAVY_DUTY_SHOWCASE: ShowcaseItem[] = [
   {
     id: "hd-green",
     name: "GREEN HEAVY DUTY TARPAULINS",
-    material: "Reinforced High-Density Polyethylene Core with Dual LDPE Sheaths",
+    material: "12ft x 18ft",
     thickness: "0.38 mm",
     uvProtection: "Equatorial UV-A/B Solar Defense Layer",
     waterproofLevel: "Stops rising dampness & tropical rain washouts",
@@ -97,7 +97,7 @@ const HEAVY_DUTY_SHOWCASE: ShowcaseItem[] = [
   {
     id: "hd-black",
     name: "BLACK HEAVY DUTY TARPAULINS",
-    material: "Multi-layered High-Density Polyester PVC Core",
+    material: "26ft x 23ft",
     thickness: "0.55 mm",
     uvProtection: "Double UV Stabilized Black Armor",
     waterproofLevel: "100% Hermetic moisture block & liquid container",
@@ -118,7 +118,7 @@ const HEAVY_DUTY_SHOWCASE: ShowcaseItem[] = [
   {
     id: "hd-stripes",
     name: "STRIPES HEAVY DUTY TARPAULINS",
-    material: "Reinforced HDPE Crop Guard Weaving Format",
+    material: "12ft x 15ft",
     thickness: "0.38 mm",
     uvProtection: "Standard Solar UV Protection Barrier",
     waterproofLevel: "100% Water-repellent rain shield",
@@ -142,7 +142,7 @@ const ECONOMY_SHOWCASE: ShowcaseItem[] = [
   {
     id: "eco-blue",
     name: "BLUE ECONOMY TARPAULINS",
-    material: "Medium-Density Laminated Polyethylene Matrix",
+    material: "9ft x 12ft",
     thickness: "0.24 mm",
     uvProtection: "Standard Solar UV-A/B Equatorial Coating",
     waterproofLevel: "Dual Laminated Water-Repellent Sheathing",
@@ -163,7 +163,7 @@ const ECONOMY_SHOWCASE: ShowcaseItem[] = [
   {
     id: "eco-green",
     name: "ARMY GREEN ECONOMY TARPAULINS",
-    material: "Medium-Density Laminated Polyethylene Matrix",
+    material: "15ft x 20ft",
     thickness: "0.24 mm",
     uvProtection: "Standard Solar UV-A/B Equatorial Coating",
     waterproofLevel: "Dual Laminated Water-Repellent Sheathing",
@@ -184,7 +184,7 @@ const ECONOMY_SHOWCASE: ShowcaseItem[] = [
   {
     id: "eco-grey",
     name: "GREY ECONOMY TARPAULINS",
-    material: "Medium-Density Laminated Polyethylene Matrix",
+    material: "12ft x 18ft",
     thickness: "0.24 mm",
     uvProtection: "Reflective Light-Shield & Solar UV Defense",
     waterproofLevel: "Dual Laminated Water-Repellent Sheathing",
@@ -255,7 +255,7 @@ export default function ProductCatalog({ onNavigate }: ProductCatalogProps) {
             </h3>
             
             <p className="text-[11px] font-mono text-slate-500 mb-4 flex items-center gap-1">
-              <span>Core Material:</span>
+              <span>Size:</span>
               <span className="font-extrabold text-slate-700 truncate">{item.material}</span>
             </p>
 
