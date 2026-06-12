@@ -241,8 +241,8 @@ export default function ProductCatalog({ onNavigate }: ProductCatalogProps) {
               rel="noopener noreferrer" 
               className="bg-amber-500 hover:bg-amber-600 text-slate-950 px-3 py-1.5 rounded-lg font-black text-[11px] font-mono tracking-wide uppercase transition-all shadow hover:scale-105 flex items-center gap-1"
             >
-              <span>ORDER NOW</span>
-              <span className="underline">teaxy.store</span>
+              <span>.</span>
+              <span className="underline">.</span>
             </a>
           </div>
         </div>
