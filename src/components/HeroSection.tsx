@@ -24,7 +24,7 @@ const HERO_IMAGES = [
   },
   {
     src: "/images/yellow_tarp_truck_1780390607794.png",
-    tag: "HEAVY INDUSTRIAL & LOGISTICS SUPPLY CHAIN SECURITY",
+    tag: "CLEANER COFFEE FOR BETTER INCOMES",
     title: "Strengthening Distribution Networks & train farmers in best practices ",
     subtitle: "For post harvest handling helping farmers to compete on global markets expanding distribution to remote areas ensuring inclusivity & access for small holder farmers",
     icon: Truck,
@@ -34,7 +34,7 @@ const HERO_IMAGES = [
   },
   {
     src: "/images/tarpaulin_customization_hub_1780388737537.png",
-    tag: "KAMPALA FABRICATION & CUSTOMIZATION HUB",
+    tag: "PROUDLY UGANDAN",
     title: "Together We Are Turning Local Enterprises",
     subtitle: "Into livelihood transformers boosting exports & driving inclusive growth.",
     icon: Drill,
