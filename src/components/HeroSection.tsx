@@ -15,8 +15,8 @@ const HERO_IMAGES = [
   {
     src: "/images/orange_tarp_coffee_1780390624788.png",
     tag: "COFFEE QUALITY & POST-HARVEST EXCELLENCE",
-    title: "Empowering Uganda's Farmers, Securing Global Premium Exports",
-    subtitle: "TSS UGANDA'S Orange Heavy Duty tarpaulins are designed to eliminate soil contamination, speed up sun drying of Arabica and Robusta, and double standard farmgate incomes.",
+    title: "Behind Every Tarpaulin Distributed by TSS UGANDA Is A Story",
+    subtitle: "Of Resilience ,Opportunity & Transformation Ensuring Availability of durable tarpaulins Everywhere. Partnering with farmers to turn tarpaulin distribution into a pathway for better incomes.",
     icon: Sprout,
     gradient: "from-blue-950/95 via-slate-950/85 to-transparent",
     actionText: "View Live Events & Promos",
@@ -25,8 +25,8 @@ const HERO_IMAGES = [
   {
     src: "/images/yellow_tarp_truck_1780390607794.png",
     tag: "HEAVY INDUSTRIAL & LOGISTICS SUPPLY CHAIN SECURITY",
-    title: "Rugged Weather Armor for East Africa's Core Transit Corridors",
-    subtitle: "High-GSM tear-proof covers engineered for long-haul carrier trucks operating across East Africa, protecting vital goods from harsh equatorial sun and heavy tropical monsoons.",
+    title: "Strengthening Distribution Networks & train farmers in best practices ",
+    subtitle: "For post harvest handling helping farmers to compete on global markets expanding distribution to remote areas ensuring inclusivity & access for small holder farmers",
     icon: Truck,
     gradient: "from-blue-950/95 via-slate-950/85 to-transparent",
     actionText: "Explore Materials Catalog",
@@ -35,8 +35,8 @@ const HERO_IMAGES = [
   {
     src: "/images/tarpaulin_customization_hub_1780388737537.png",
     tag: "KAMPALA FABRICATION & CUSTOMIZATION HUB",
-    title: "Precision Tooling, Heat-Sealing & Heavy-Duty Eyeleting",
-    subtitle: "Based in Kampala, we custom-tailor tarpaulins to any length, reinforcing with brass eyelets and robust heat welded hems.",
+    title: "Together We Are Turning Local Enterprises",
+    subtitle: "Into livelihood transformers boosting exports & driving inclusive growth.",
     icon: Drill,
     gradient: "from-blue-950/95 via-slate-950/85 to-transparent",
     actionText: "Explore Materials Catalog",
