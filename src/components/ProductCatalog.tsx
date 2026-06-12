@@ -105,20 +105,20 @@ const HEAVY_DUTY_SHOWCASE: ShowcaseItem[] = [
     tearStrength: "Cross-woven High-Tensile 1300D Thread Matrix",
     use: "Water lining containment for circular fish farming tanks and aquaculture.",
     why: "Suppresses light penetration to inhibit green algae blooms while maintaining warm water temperatures to support tilapia & catfish metabolism.",
-    color: "Black",
+    color: "",
     colorClass: "bg-slate-900",
-    image: "/assets/images/aquaculture_black_tarp_1780393207082.png",
+    image: "/images/aquaculture_black_tarp_1780393207082.png",
     features: [
-      "Ensures water containment stability - non-toxic to aquatic stock",
-      "Highly puncture-resistant against roots, gravel, and frame edges",
-      "Locks heat water temperature to optimize fish feeding levels"
+      "hydrostatic pressure & puncture that could result from heavy water & puncturing form sharp roots or debris hidden beneath the soil bed",
+      "photosynthesis algae growth by completely blocking out sunlight",
+      "Soil chemical corrosion because it is chemically innet , resisting corrosion from both the earth beneath & aquaculture waste above"
     ],
     linkToProductId: "p1"
   },
   {
     id: "hd-stripes",
     name: "STRIPES HEAVY DUTY TARPAULINS",
-    gsm: 400,
+    gsm: ,
     material: "Reinforced HDPE Crop Guard Weaving Format",
     thickness: "0.38 mm",
     uvProtection: "Standard Solar UV Protection Barrier",
@@ -126,13 +126,13 @@ const HEAVY_DUTY_SHOWCASE: ShowcaseItem[] = [
     tearStrength: "Standard Ripstop Thread Matrix",
     use: "Market stalls, walk-in exhibition booths, and smallholder retail canopies.",
     why: "Highly attractive visual layout, extremely affordable, and light to carry - the perfect fabric choice for cooperative markets and temporary trading yards.",
-    color: "Stripes",
+    color: "",
     colorClass: "bg-slate-300 bg-gradient-to-r from-blue-400 via-indigo-200 to-amber-200",
-    image: "/assets/images/striped_tarp_use_1780393572426.png",
+    image: "/images/striped_tarp_use_1780393572426.png",
     features: [
-      "Incredibly lightweight to fold and transport to daily cooperative yards",
-      "Vibrant high-contrast design attracts regional customers to your stall",
-      "Affordable retail yard covering with durable corner reinforcement"
+      "Repeated flexing & creasing , they resist flex cracking meaning the laminated layers won't delaminate /crack along fold lines",
+      "Mild shock loads , withstand sudden tags from wind guts , tight rope tying & the weight of pulling water",
+      "Heat Absorption , reflect alternating white stripes reflect a significant portion of solar radiation"
     ],
     linkToProductId: "p2"
   }
@@ -150,20 +150,20 @@ const ECONOMY_SHOWCASE: ShowcaseItem[] = [
     tearStrength: "Standard Cross-Weave Grid",
     use: "Affordable livestock housing roof shelters, cow bomas, and temporary market stalls.",
     why: "Perfect cost-effective shelter option tailored for livestock housing roof shelter and temporary smallholder market stalls. Extremely light to transport, mount, and clean.",
-    color: "Blue",
+    color: "",
     colorClass: "bg-blue-600",
-    image: "/assets/images/blue_tarp_livestock_1780391886537.png",
+    image: "/images/blue_tarp_livestock_1780391886537.png",
     features: [
-      "Unmatched price point - optimized for low-capital farming households",
-      "Easily mounted onto timber framing structures for cattle & chicken bomas",
-      "Specially designed lightweight build - easy for a single farmer to carry"
+      "Ammonia & uric acid corrosion ,chemically treated to resist corrosive atmosphere",
+      "Pecking ,biting & scratching",
+      "Bacterial & fungal accumulation"
     ],
     linkToProductId: "p3"
   },
   {
     id: "eco-green",
     name: "ARMY GREEN ECONOMY TARPAULINS",
-    gsm: 250,
+    gsm: ,
     material: "Medium-Density Laminated Polyethylene Matrix",
     thickness: "0.24 mm",
     uvProtection: "Standard Solar UV-A/B Equatorial Coating",
@@ -171,13 +171,13 @@ const ECONOMY_SHOWCASE: ShowcaseItem[] = [
     tearStrength: "Standard Cross-Weave Grid",
     use: "Outdoor standing goods, harvest stacks, timber yards, and field equipment.",
     why: "Excellent protective weather barrier optimized for outdoor storage, protecting crop yields, construction items, and open-air goods. Blends perfectly with outdoor agricultural environments.",
-    color: "Army Green",
+    color: "",
     colorClass: "bg-emerald-800",
-    image: "/assets/images/army_green_use_1780393793155.png",
+    image: "/images/army_green_use_1780393793155.png",
     features: [
-      "Protects standing harvest stacks and sacks from rainfall and ground moisture",
-      "Low-visibility army green tone blends with farm gardens, deterring theft",
-      "Aluminum eyelets located every 100cm for simple rope securement"
+      "Static water pooling & heavy hydro static pressure",
+      "Extreme uv degradation & sub surface heat build up",
+      "Industrial pollutants & Acid rains"
     ],
     linkToProductId: "p3"
   },
@@ -192,13 +192,13 @@ const ECONOMY_SHOWCASE: ShowcaseItem[] = [
     tearStrength: "Standard Cross-Weave Grid",
     use: "Covering machinery, crates, and storage goods in open-air yards.",
     why: "Easily reflected and identified at any time of the day or night. Outstanding thermal and light reflection, allowing ease of visual security monitoring day and night to protect assets.",
-    color: "Grey",
+    color: "",
     colorClass: "bg-slate-500",
-    image: "/assets/images/grey_tarp_use_1780393676967.png",
+    image: "/images/grey_tarp_use_1780393676967.png",
     features: [
-      "Easily recognized under security torches or vehicle headlights",
-      "Outstanding heat-deflection traits - keeps underlying engines cooler",
-      "Dual-coated rot-proof layer avoids degradation in damp outdoor yards"
+      "Oil , grease & fuel spills",
+      "Sharp edge puncture & tearing",
+      "Condesation & moisture trapping"
     ],
     linkToProductId: "p3"
   }
@@ -274,7 +274,7 @@ export default function ProductCatalog({ onNavigate }: ProductCatalogProps) {
 
             {/* List Specs Checklist */}
             <div className="space-y-1.5 text-xs text-slate-600 pt-2 border-t border-slate-100">
-              <span className="text-[9px] uppercase font-mono font-bold tracking-wider block text-slate-400 mb-1">Detailed Features</span>
+              <span className="text-[9px] uppercase font-mono font-bold tracking-wider block text-slate-400 mb-1">Resistant To</span>
               {item.features.map((feat, index) => (
                 <div key={index} className="flex items-start gap-1.5">
                   <Check className="w-3.5 h-3.5 text-emerald-600 mt-0.5 flex-shrink-0" />
@@ -319,7 +319,7 @@ export default function ProductCatalog({ onNavigate }: ProductCatalogProps) {
             Uganda-Optimized Tarpaulin Material Catalog
           </h2>
           <p className="mt-4 text-base sm:text-lg text-slate-600 font-light max-w-2xl mx-auto">
-            TSS Uganda structures tarpaulins with dense high-grade weave matrices, dual lamination, and extreme equatorial UV defense. Find each class, color option, and its verified active duty usage in-field.
+            For All Farmers In Uganda,Get Real Value from your Harvests This Season by using Clean & Guaranteed Tarpaulin. Buy TSS Uganda  tarpaulins from a TSS Authorized Dealer near you at the Lowest Prices OR Order on teaxy.store .
           </p>
         </div>
 
@@ -327,13 +327,13 @@ export default function ProductCatalog({ onNavigate }: ProductCatalogProps) {
         <div className="mb-20">
           <div className="border-b border-slate-200 pb-4 mb-8 flex flex-col md:flex-row justify-between items-start md:items-end gap-3">
             <div>
-              <span className="text-xs font-mono font-bold tracking-[0.2em] text-blue-900 uppercase block mb-1">CATEGORY 01 (PREMIUM)</span>
+              <span className="text-xs font-mono font-bold tracking-[0.2em] text-blue-900 uppercase block mb-1">The True Face Of Durability</span>
               <h3 className="text-2xl sm:text-3xl font-extrabold font-display text-slate-950 tracking-tight flex items-center gap-2">
                 Heavy-Duty Tarpaulins <span className="text-xs font-bold font-mono tracking-widest text-[#d97706] bg-amber-50 border border-amber-200 px-2 py-0.5 rounded uppercase font-semibold">400 - 800 GSM</span>
               </h3>
             </div>
             <p className="text-xs text-slate-500 max-w-md font-light leading-relaxed">
-              Resistant to high friction, continuous sun baking, heavy rainfall, and intense cargo tie-down strain on transport routes and farm-coops.
+              Suitable for Heavy Duty and Industrial activities.
             </p>
           </div>
 
@@ -346,13 +346,13 @@ export default function ProductCatalog({ onNavigate }: ProductCatalogProps) {
         <div className="mb-16">
           <div className="border-b border-slate-200 pb-4 mb-8 flex flex-col md:flex-row justify-between items-start md:items-end gap-3">
             <div>
-              <span className="text-xs font-mono font-bold tracking-[0.2em] text-blue-900 uppercase block mb-1">CATEGORY 02 (AFFORDABLE)</span>
+              <span className="text-xs font-mono font-bold tracking-[0.2em] text-blue-900 uppercase block mb-1">FOR THE LOWEST BUDGET</span>
               <h3 className="text-2xl sm:text-3xl font-extrabold font-display text-slate-950 tracking-tight flex items-center gap-2">
                 Economy Tarpaulins <span className="text-xs font-bold font-mono tracking-widest text-blue-900 bg-blue-50 border border-blue-105 px-2 py-0.5 rounded uppercase font-semibold">250 GSM</span>
               </h3>
             </div>
             <p className="text-xs text-slate-500 max-w-md font-light leading-relaxed">
-              Highly affordable, exceptionally light to carry, simple to wash down, and quickly configured with ropes & timber layouts on the go.
+              Suitable For Light Weight Activities.
             </p>
           </div>
 
@@ -365,9 +365,9 @@ export default function ProductCatalog({ onNavigate }: ProductCatalogProps) {
         <div className="bg-gradient-to-br from-blue-900 via-blue-955 to-slate-950 rounded-xl p-8 mt-16 text-white border border-blue-800 flex flex-col md:flex-row justify-between items-center gap-6 shadow-xl relative overflow-hidden">
           <div className="absolute top-0 right-0 w-32 h-32 bg-yellow-400/5 rounded-full blur-2xl" />
           <div className="md:max-w-xl relative z-10">
-            <h4 className="text-xl font-bold font-display text-white mb-2 uppercase tracking-wide">Need Custom Shapes, Colors or Specialized Eyelet Pattern?</h4>
+            <h4 className="text-xl font-bold font-display text-white mb-2 uppercase tracking-wide">B 2 B Inquiries</h4>
             <p className="text-xs text-slate-300 font-light leading-relaxed">
-              TSS Uganda specializes in tailoring custom layouts. Whether you need a truck-side zipper, triangular architectural grommets, specialized hook-and-loop seal tape, or extra heavy eyelet reinforcement for severe mountain winds, our high-tech workshop in Kampala is fully equipped to meet your dimensions.
+              For Bulk /Wholesale purchases Anywhere .
             </p>
           </div>
           <div className="flex flex-col sm:flex-row items-center gap-3 shrink-0 w-full md:w-auto z-10">
@@ -375,7 +375,7 @@ export default function ProductCatalog({ onNavigate }: ProductCatalogProps) {
               href="tel:+256761414008"
               className="px-6 py-3.5 bg-yellow-400 hover:bg-yellow-500 text-blue-950 rounded-lg font-black text-xs uppercase tracking-widest text-center w-full md:w-auto transition-all shadow-lg shadow-yellow-500/10 hover:scale-105 border border-yellow-300"
             >
-              Call Specialist: +256 761414008
+              CONTACT : +256 761414008
             </a>
           </div>
         </div>
