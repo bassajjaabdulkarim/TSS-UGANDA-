@@ -14,8 +14,8 @@ export const SUCCESS_STORIES: SuccessStory[] = [
     materialUsed: "TSS UG",
     imageKey: "FOUNDER",
     impactMetrics: [
-      { label: "Post-Harvest Defect Loss", value: "< 2%", detail: "Down from 35% soil rot" },
-      { label: "Premium Farmgate Price", value: "+44%", detail: "Spec-grade export certified" },
+      { label: "PARTNER STORES", value: "50+", detail: "REGIONAL DISTRIBUTION NETWORK" },
+      { label: "TARPAULIN DISTRIBUTION", value: "10,000+", detail: "METRIC TONNES" },
       { label: "SERVING C.E.O FOR", value: "4+ YEARS ", detail: "WITH DETERMINATION & COURAGE" }
     ]
   },
@@ -52,7 +52,7 @@ export const SUCCESS_STORIES: SuccessStory[] = [
     impactMetrics: [
       { label: "Transit Water Claims", value: "0.00%", detail: "Zero grain rot claims" },
       { label: "Annual Transporter Net", value: "+18%", detail: "From insurance & quality bonuses" },
-      { label: "DIDTRIBUTOR", value: "4+ Years", detail: "WITH HONESTY & EXCELLENCE" }
+      { label: "DISTRIBUTOR", value: "4+ Years", detail: "WITH HONESTY & EXCELLENCE" }
     ]
   }
 ];
