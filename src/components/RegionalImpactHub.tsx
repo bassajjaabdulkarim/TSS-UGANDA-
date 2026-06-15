@@ -47,7 +47,7 @@ export default function RegionalImpactHub() {
               {/* Official Branding Logo in the top-right corner */}
               <div className="flex flex-col items-center bg-white/5 backdrop-blur-md rounded-xl p-2.5 border border-white/10 shrink-0 select-none self-end sm:self-auto">
                 <img 
-                  src="/assets/images/tss_official_hq_logo_1780562057363.png" 
+                  src="/images/tss_official_hq_logo_1780562057363.png" 
                   alt="TSS Uganda Official Stamp Logo" 
                   className="w-12 h-12 object-contain"
                   referrerPolicy="no-referrer"
@@ -59,7 +59,7 @@ export default function RegionalImpactHub() {
             {/* Geographic map container displaying the generated Uganda map photo */}
             <div className="relative w-full aspect-[600/500] my-4 mx-auto max-w-full rounded-2xl overflow-hidden shadow-xl border border-blue-900/40">
               <img 
-                src="/assets/images/uganda_map_photo_1781528867229.jpg" 
+                src="/images/uganda_map_photo_1781528867229.jpg" 
                 alt="3D Map of Uganda regional footprint" 
                 className="absolute inset-0 w-full h-full object-cover"
                 referrerPolicy="no-referrer"
@@ -80,7 +80,7 @@ export default function RegionalImpactHub() {
                 <div className="relative shrink-0 w-16 h-12 sm:w-20 sm:h-16 rounded-xl bg-white/5 border border-white/10 p-1 overflow-hidden shadow-2xl flex items-center justify-center">
                   <div className="absolute inset-0 bg-gradient-to-t from-[#051E46]/80 to-transparent z-10" />
                   <img 
-                    src="/assets/images/striped_tarp_use_1780393572426.png" 
+                    src="/images/striped_tarp_use_1780393572426.png" 
                     alt="TSS Uganda Striped Tarpaulin Roll" 
                     className="w-full h-full object-cover rounded-lg"
                     referrerPolicy="no-referrer"
