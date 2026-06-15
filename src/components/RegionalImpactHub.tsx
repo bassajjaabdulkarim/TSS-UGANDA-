@@ -3,15 +3,12 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { useState } from 'react';
+import React from 'react';
 import { REGIONAL_IMPACT, SOCIAL_BENEFITS } from '../data';
 import { RegionalImpactData } from '../types';
 import { TrendingUp, Users, MapPin, Building, Globe2, Sparkles, CheckCircle } from 'lucide-react';
-import { motion, AnimatePresence } from 'motion/react';
 
 export default function RegionalImpactHub() {
-  const [hoveredRegionName, setHoveredRegionName] = useState<string | null>(null);
-
   // Coordinate mapping for locations inside the 600 x 500 SVG canvas coordinate system
   const svgCoords: Record<string, { x: number; y: number; textX: number; textY: number; align: "start" | "end" | "middle" }> = {
     "Kampala Central (HQ)": { x: 380, y: 285, textX: 15, textY: 2, align: "start" },
@@ -33,21 +30,21 @@ export default function RegionalImpactHub() {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-1.5 px-3.5 py-1.5 bg-amber-50 text-amber-900 border border-amber-200/50 rounded-full text-xs font-bold tracking-wider uppercase mb-4">
             <Globe2 className="w-3.5 h-3.5 text-amber-500" />
-            <span>Regional Footprint & Wholesale Network</span>
+            <span>Regional Footprint & Retail Network</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight font-display text-slate-900 leading-tight animate-fade-in animate-duration-500">
+          <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight font-display text-slate-900 leading-tight">
             Strengthening Value Chains, Transforming Livelihoods
           </h2>
           <p className="mt-4 text-base sm:text-lg text-slate-600 font-light">
-            TSS Uganda is expanding distribution to remote areas ,were ensuring inclusivity & Access for small holder farmers.
+            TSS Uganda is actively transitionary. We turn tarpaulin distribution into pathways for increased household incomes, youth employment, and robust agricultural output in Uganda and neighboring regions.
           </p>
         </div>
 
-        {/* Dynamic Interactive map and details board */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-stretch mb-20">
+        {/* Dynamic Static map centered showcase */}
+        <div className="max-w-4xl mx-auto mb-20">
           
-          {/* Left Column: Interactive Uganda SVG Map Visualization matching the uploaded design */}
-          <div className="lg:col-span-7 bg-[#051E46] relative rounded-3xl p-6 sm:p-8 shadow-2xl overflow-hidden flex flex-col justify-between border border-blue-900/40 select-none min-h-[500px] sm:min-h-[580px]">
+          {/* Static Uganda SVG Map Visualization matching the uploaded design */}
+          <div className="bg-[#051E46] relative rounded-3xl p-6 sm:p-8 shadow-2xl overflow-hidden flex flex-col justify-between border border-blue-900/40 select-none min-h-[500px] sm:min-h-[580px] w-full">
             {/* Ambient map background texture */}
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,#09316d,transparent_70%)] opacity-30 pointer-events-none" />
 
@@ -57,7 +54,7 @@ export default function RegionalImpactHub() {
                   WE ARE NOW CLOSER TO YOU
                 </h3>
                 <p className="text-[10px] sm:text-xs text-blue-200 mt-1.5 opacity-90 leading-tight">
-                  Hover over any regional location pin to spotlight local supply centers, stock types, and cooperative footprints.
+                  Our robust nationwide transport, retail supply terminals, and cooperative footprint coverage.
                 </p>
               </div>
 
@@ -98,25 +95,14 @@ export default function RegionalImpactHub() {
                 
                 {/* Map Pins overlay dynamically */}
                 {REGIONAL_IMPACT.map((loc, idx) => {
-                  const isHovered = hoveredRegionName === loc.regionName;
                   const coords = svgCoords[loc.regionName] || { x: 300, y: 250, textX: 12, textY: 0, align: "start" as const };
                   const truncatedName = loc.regionName.replace(" Region", "").replace(" District", "").toUpperCase();
                   
                   return (
                     <g 
                       key={idx}
-                      onMouseEnter={() => setHoveredRegionName(loc.regionName)}
-                      onMouseLeave={() => setHoveredRegionName(null)}
-                      className="cursor-pointer group"
+                      className="select-none pointer-events-none"
                     >
-                      {/* Gentle pulse shadow for all pins */}
-                      <circle cx={coords.x} cy={coords.y - 19} r="6" fill="#38BDF8" className="animate-pulse" opacity="0.3" />
-
-                      {/* Ripple/Ring on active hover spotlight */}
-                      {isHovered && (
-                        <circle cx={coords.x} cy={coords.y - 18} r="16" fill="#F59E0B" opacity="0.25" className="animate-ping" />
-                      )}
-
                       {/* Small anchor pin drop shadow */}
                       <ellipse cx={coords.x} cy={coords.y + 1} rx="5" ry="2" fill="#000" opacity="0.3" />
 
@@ -124,10 +110,9 @@ export default function RegionalImpactHub() {
                       <path 
                         d="M 0 0 C -6 -8 -10 -14 -10 -19 C -10 -25 -5 -29 0 -29 C 5 -29 10 -25 10 -19 C 10 -14 6 -8 0 0 Z" 
                         transform={`translate(${coords.x}, ${coords.y})`}
-                        fill={isHovered ? "#F59E0B" : "#0EA5E9"} 
+                        fill="#0EA5E9" 
                         stroke="white" 
                         strokeWidth="1.5" 
-                        className="transition-colors duration-200"
                         style={{ filter: "drop-shadow(0 2px 3px rgba(0,0,0,0.25))" }}
                       />
 
@@ -138,11 +123,9 @@ export default function RegionalImpactHub() {
                       <text 
                         x={coords.x + coords.textX} 
                         y={coords.y + coords.textY - 14} 
-                        fill={isHovered ? "#F59E0B" : "#1E3A8A"} 
+                        fill="#1E3A8A" 
                         textAnchor={coords.align}
-                        className={`font-sans font-black select-none text-[10px] sm:text-[11px] uppercase tracking-wide transition-all duration-300 ${
-                          isHovered ? "drop-shadow-[0_1px_4px_rgba(245,158,11,0.4)]" : "opacity-85"
-                        }`}
+                        className="font-sans font-black select-none text-[10px] sm:text-[11px] uppercase tracking-wide opacity-90"
                       >
                         {truncatedName}
                       </text>
@@ -157,7 +140,7 @@ export default function RegionalImpactHub() {
             <div className="relative z-10 flex flex-col md:flex-row items-end sm:items-center justify-between gap-4 mt-2 pt-4 border-t border-white/10">
               <div className="text-[10px] text-blue-200/80 font-mono tracking-wide flex items-center gap-1.5">
                 <span className="inline-block w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
-                <span>Active hardware supply footprint. Hover map locations.</span>
+                <span>Official regional distribution network coverage.</span>
               </div>
 
               <div className="flex items-center gap-3 max-w-[340px] text-right ml-auto self-end">
@@ -174,70 +157,6 @@ export default function RegionalImpactHub() {
                   />
                 </div>
               </div>
-            </div>
-          </div>
-
-          {/* Right Column: Node Details & Metrics */}
-          <div className="lg:col-span-5 bg-white border border-slate-200/60 p-6 sm:p-8 rounded-xl shadow-xl flex flex-col justify-between">
-            <div className="space-y-4">
-              <div>
-                <div className="text-[10px] text-blue-900 font-mono tracking-widest uppercase font-black mb-1">National Footprint Directory</div>
-                <h4 className="text-xl sm:text-2xl font-display font-extrabold text-slate-900">
-                  Retailers, Stations & Distributors
-                </h4>
-                <div className="h-1 w-12 bg-amber-500 mt-2 rounded"></div>
-              </div>
-              
-              <p className="text-xs text-slate-500 font-light leading-relaxed">
-                TSS Uganda high-density premium tarpaulins are supplied through official branch distributors and leading stockists at these key locations. Buy the authentic trusted brand with our logo stamp.
-              </p>
-
-              {/* Directory Listing of all 9 Regions with smooth hover spotlights */}
-              <div className="space-y-2 max-h-[360px] overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-slate-200 scrollbar-track-transparent">
-                {REGIONAL_IMPACT.map((loc, idx) => {
-                  const isHovered = hoveredRegionName === loc.regionName;
-                  return (
-                    <div 
-                      key={idx} 
-                      onMouseEnter={() => setHoveredRegionName(loc.regionName)}
-                      onMouseLeave={() => setHoveredRegionName(null)}
-                      className={`p-3 border rounded-xl transition-all duration-200 flex items-start gap-3 cursor-default ${
-                        isHovered 
-                          ? "bg-amber-50/70 border-amber-300 shadow-sm shadow-amber-100/50" 
-                          : "bg-slate-50 border-slate-100 hover:bg-slate-100/70 hover:border-slate-200"
-                      }`}
-                    >
-                      <div className={`p-1.5 rounded-lg shrink-0 mt-0.5 transition-colors duration-200 ${
-                        isHovered ? "bg-amber-500 text-white" : "bg-blue-900 text-blue-50"
-                      }`}>
-                        <MapPin className="w-3.5 h-3.5" />
-                      </div>
-                      <div className="flex-1">
-                        <div className="flex items-center justify-between">
-                          <span className={`text-xs font-extrabold transition-colors duration-200 ${
-                            isHovered ? "text-amber-950" : "text-slate-800"
-                          }`}>{loc.regionName}</span>
-                          <span className="text-[8px] font-mono bg-blue-100/80 text-blue-800 px-1.5 py-0.5 rounded font-bold tracking-wider uppercase">
-                            Active
-                          </span>
-                        </div>
-                        <p className="text-[10px] text-slate-500 font-light leading-normal mt-1">
-                          {loc.details}
-                        </p>
-                        <div className="mt-2 flex items-center justify-between text-[10px]">
-                          <span className="font-semibold text-slate-700">
-                            Core Product Focus: <span className="font-extrabold text-blue-900">{loc.keyCommodity}</span>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-
-            <div className="pt-4 border-t border-slate-100 mt-4 bg-slate-50 p-3 rounded-lg text-[11px] leading-relaxed text-slate-500 font-light">
-              We coordinate supply chains daily in collaboration with hardware outlets, cooperatives, and major logistical fleets.
             </div>
           </div>
 
