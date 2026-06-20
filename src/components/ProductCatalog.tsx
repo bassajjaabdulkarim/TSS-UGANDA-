@@ -214,7 +214,7 @@ const getPiecesCountByColor = (color: string): number => {
   if (normColor.includes('army green') || normColor.includes('armygreen')) return 5;
   if (normColor.includes('stripes') || normColor.includes('striped')) return 5;
   if (normColor === 'orange') return 3;
-  return 2;
+  return .;
 };
 
 interface ProductCardProps {
