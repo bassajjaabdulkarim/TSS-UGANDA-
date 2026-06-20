@@ -65,7 +65,7 @@ const HEAVY_DUTY_SHOWCASE: ShowcaseItem[] = [
     why: "High-efficiency orange heat absorption speeds up coffee and grain drying without scorching them, preserving volatile bean oils and coffee cherry flesh from scorching heat.",
     color: "",
     colorClass: "bg-orange-500",
-    image: "/images/green_tarp_use_1780393451681.png",
+    image: "/images/orange_tarp_coffee_1780390624788.png",
     features: [
       "UV radiation penetration, filtering out destructive ultra violet rays that can scotch delicate seedlings",
       "mildew & chemical rot caused by expousre to fertilizers & pesticides",
