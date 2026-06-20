@@ -42,7 +42,7 @@ const HEAVY_DUTY_SHOWCASE: ShowcaseItem[] = [
     tearStrength: "Cross-woven High-Tensile 1300D Thread Matrix",
     use: "Safeguards long-haul cargo trailers (Kampala-Mombasa corridor) and large truck loads outdoor.",
     why: "Crucial highway safety shield that reflects light, making other drivers see your truck clearly from a distance, minimizing night-time collisions and maximizing vehicle security.",
-    color: "Yellow",
+    color: "",
     colorClass: "bg-yellow-400",
     image: "/images/yellow_tarp_truck_1780390607794.png",
     features: [
@@ -63,7 +63,7 @@ const HEAVY_DUTY_SHOWCASE: ShowcaseItem[] = [
     tearStrength: "Double-thread Ripstop Grid Weaving",
     use: "Drying coffee cherries, cocoa beans, maize, and regional food crops.",
     why: "High-efficiency orange heat absorption speeds up coffee and grain drying without scorching them, preserving volatile bean oils and coffee cherry flesh from scorching heat.",
-    color: "Orange",
+    color: "",
     colorClass: "bg-orange-500",
     image: "/images/green_tarp_use_1780393451681.png",
     features: [
@@ -84,7 +84,7 @@ const HEAVY_DUTY_SHOWCASE: ShowcaseItem[] = [
     tearStrength: "High-level ripstop thread weaving",
     use: "Shelter canopy for crop nursery beds and tender tree seedlings.",
     why: "Maintains cooler under-canopy temperatures and allows enough solar light transmission for photosynthesis while protecting youth seedlings from scorching sun rays.",
-    color: "Green",
+    color: "",
     colorClass: "bg-emerald-600",
     image: "/images/green_tarp_use_1780393451681.png",
     features: [
@@ -105,7 +105,7 @@ const HEAVY_DUTY_SHOWCASE: ShowcaseItem[] = [
     tearStrength: "Cross-woven High-Tensile 1300D Thread Matrix",
     use: "Water lining containment for circular fish farming tanks and aquaculture.",
     why: "Suppresses light penetration to inhibit green algae blooms while maintaining warm water temperatures to support tilapia & catfish metabolism.",
-    color: "Black",
+    color: "",
     colorClass: "bg-slate-900",
     image: "/images/aquaculture_black_tarp_1780393207082.png",
     features: [
@@ -126,7 +126,7 @@ const HEAVY_DUTY_SHOWCASE: ShowcaseItem[] = [
     tearStrength: "Standard Ripstop Thread Matrix",
     use: "Market stalls, walk-in exhibition booths, and smallholder retail canopies.",
     why: "Highly attractive visual layout, extremely affordable, and light to carry - the perfect fabric choice for cooperative markets and temporary trading yards.",
-    color: "Stripes",
+    color: "",
     colorClass: "bg-slate-300 bg-gradient-to-r from-blue-400 via-indigo-200 to-amber-200",
     image: "/images/striped_tarp_use_1780393572426.png",
     features: [
@@ -150,7 +150,7 @@ const ECONOMY_SHOWCASE: ShowcaseItem[] = [
     tearStrength: "Standard Cross-Weave Grid",
     use: "Affordable livestock housing roof shelters, cow bomas, and temporary market stalls.",
     why: "Perfect cost-effective shelter option tailored for livestock housing roof shelter and temporary smallholder market stalls. Extremely light to transport, mount, and clean.",
-    color: "Blue",
+    color: "",
     colorClass: "bg-blue-600",
     image: "/images/blue_tarp_livestock_1780391886537.png",
     features: [
@@ -171,7 +171,7 @@ const ECONOMY_SHOWCASE: ShowcaseItem[] = [
     tearStrength: "Standard Cross-Weave Grid",
     use: "Outdoor standing goods, harvest stacks, timber yards, and field equipment.",
     why: "Excellent protective weather barrier optimized for outdoor storage, protecting crop yields, construction items, and open-air goods. Blends perfectly with outdoor agricultural environments.",
-    color: "Army Green",
+    color: "",
     colorClass: "bg-emerald-800",
     image: "/images/army_green_use_1780393793155.png",
     features: [
@@ -192,7 +192,7 @@ const ECONOMY_SHOWCASE: ShowcaseItem[] = [
     tearStrength: "Standard Cross-Weave Grid",
     use: "Covering machinery, crates, and storage goods in open-air yards.",
     why: "Easily reflected and identified at any time of the day or night. Outstanding thermal and light reflection, allowing ease of visual security monitoring day and night to protect assets.",
-    color: "Grey",
+    color: "",
     colorClass: "bg-slate-500",
     image: "/images/grey_tarp_use_1780393676967.png",
     features: [
@@ -213,7 +213,7 @@ const getPiecesCountByColor = (color: string): number => {
   if (normColor.includes('grey') || normColor.includes('gray')) return 5;
   if (normColor.includes('army green') || normColor.includes('armygreen')) return 5;
   if (normColor.includes('stripes') || normColor.includes('striped')) return 5;
-  if (normColor === 'orange') return 2;
+  if (normColor === 'orange') return 3;
   return 2;
 };
 
@@ -349,7 +349,7 @@ function ProductCard({ item }: ProductCardProps) {
                 rel="noopener noreferrer" 
                 className="w-full bg-slate-900 hover:bg-slate-950 text-white py-2.5 rounded-xl font-bold text-[11px] font-mono tracking-wider uppercase flex items-center justify-center gap-2 shadow-sm transition-all hover:scale-[1.02] cursor-pointer"
               >
-                <span>Shop on teaxy.store</span>
+                <span>ORDER ON teaxy.store</span>
                 <ExternalLink className="w-3.5 h-3.5" />
               </a>
             </div>
