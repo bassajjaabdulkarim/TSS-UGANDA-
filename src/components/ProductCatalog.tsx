@@ -300,7 +300,7 @@ function ProductCard({ item }: ProductCardProps) {
                 <span className="font-extrabold text-slate-800 text-xs">{item.waterproofLevel.split(' ')[0]} Protected</span>
               </div>
               <div className="col-span-2 pt-2 border-t border-slate-200/40">
-                <span className="text-slate-450 font-mono uppercase tracking-wider text-[8px] block mb-0.5">🧬 MATERIAL MATRIX</span>
+                <span className="text-slate-450 font-mono uppercase tracking-wider text-[8px] block mb-0.5">🧬 SIZE</span>
                 <p className="text-[11px] text-slate-600 font-sans leading-relaxed font-semibold">{item.material}</p>
               </div>
             </div>
@@ -361,10 +361,10 @@ function ProductCard({ item }: ProductCardProps) {
       {/* 4. Sealed Pack Information and Specs Row details */}
       <div className="p-4 bg-slate-50 border-t border-slate-200/50 flex flex-col items-center gap-1.5 text-center mt-auto">
         <div className="text-[10px] font-extrabold text-blue-900 font-mono uppercase bg-blue-50/70 border border-blue-100/50 px-2.5 py-0.5 rounded-full">
-          {getPiecesCountByColor(item.color)} Pieces Pack Sealing
+          {getPiecesCountByColor(item.color)} Pieces Per Pack 
         </div>
         <div className="text-[9px] text-slate-500 font-medium font-mono uppercase bg-slate-100/60 px-2.5 py-0.5 rounded border border-slate-200/10">
-          Kampala Central Warehouse Box
+          AVAILABLE NOW
         </div>
       </div>
     </div>
