@@ -209,11 +209,11 @@ const getPiecesCountByColor = (color: string): number => {
   if (normColor.includes('black')) return 3;
   if (normColor.includes('blue')) return 5;
   if (normColor.includes('yellow')) return 2;
-  if (normColor === 'green') return 3;
+  if (normColor.includes('green')) return 3;
   if (normColor.includes('grey') || normColor.includes('gray')) return 5;
   if (normColor.includes('army green') || normColor.includes('armygreen')) return 5;
   if (normColor.includes('stripes') || normColor.includes('striped')) return 5;
-  if (normColor === 'orange') return 3;
+  if (normColor.includes('orange')) return 3;
   return 3;
 };
 
