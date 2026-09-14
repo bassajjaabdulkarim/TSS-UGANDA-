@@ -16,7 +16,7 @@ const HERO_IMAGES = [
     src: "/images/orange_tarp_coffee_1780390624788.png",
     tag: "COFFEE QUALITY & POST-HARVEST EXCELLENCE",
     title: "Behind Every Tarpaulin Distributed by TSS UGANDA Is A Story",
-    subtitle: "Of Resilience ,Opportunity & Transformation Ensuring Availability of durable tarpaulins Everywhere. Partnering with farmers to turn tarpaulin distribution into a pathway for better incomes.",
+    subtitle: "Of Resilience ,Opportunity & Transformation Ensuring Availability of durable tarpaulins Everywhere. Partnering with Hardware stores to turn tarpaulin distribution into a pathway for better incomes to farmers in the most remote areas.",
     icon: Sprout,
     gradient: "from-blue-950/95 via-slate-950/85 to-transparent",
     actionText: "View Live Events & Promos",
@@ -25,8 +25,8 @@ const HERO_IMAGES = [
   {
     src: "/images/yellow_tarp_truck_1780390607794.png",
     tag: "CLEANER COFFEE FOR BETTER INCOMES",
-    title: "Strengthening Distribution Networks & training farmers in best practices ",
-    subtitle: "For post harvest handling helping farmers to compete on global markets . By expanding distribution to remote areas were ensuring inclusivity & access for small holder farmers",
+    title: "Strengthening Distribution Networks & training farmers in best post harvest practices ",
+    subtitle: "Helping farmers to compete on global markets . Were ensuring inclusivity & access for small holder farmers",
     icon: Truck,
     gradient: "from-blue-950/95 via-slate-950/85 to-transparent",
     actionText: "Explore Materials Catalog",
@@ -35,7 +35,7 @@ const HERO_IMAGES = [
   {
     src: "/images/tarpaulin_customization_hub_1780388737537.png",
     tag: "PROUDLY UGANDAN",
-    title: "Together We Are Turning Local Enterprises",
+    title: "Together We Are Turning Local Farmers",
     subtitle: "Into livelihood transformers boosting Coffee exports & driving inclusive growth.",
     icon: Drill,
     gradient: "from-blue-950/95 via-slate-950/85 to-transparent",
