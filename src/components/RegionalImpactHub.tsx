@@ -22,7 +22,7 @@ export default function RegionalImpactHub() {
             Strengthening Value Chains, Transforming Livelihoods
           </h2>
           <p className="mt-4 text-base sm:text-lg text-slate-600 font-light">
-            TSS Uganda is actively transitionary. We turn tarpaulin distribution into pathways for increased household incomes, youth employment, and robust agricultural output in Uganda and neighboring regions.
+            TSS Uganda is actively transitioning farmers livelihoods. We turn tarpaulin distribution into pathways for increased household incomes, youth employment, and robust agricultural output in Uganda and neighboring regions.
           </p>
         </div>
 
